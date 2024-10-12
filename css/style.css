@@ -506,15 +506,15 @@
 }
 
 .carousel {
-    height: 100vh;
+    height: 90vh;
 }
 .item .info-box{
     position: absolute;
     left: 5%;
     top: 50%;
     transform: translateY(-50%);
-    width: 450px;
-    height: 280px;
+    width: 550px;
+    height: 400px;
     display: flex;
     align-items: center;
     z-index: 1;
@@ -532,9 +532,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     transform: translateY(calc(var(--i) * 100%));
-
 }
 
 .info-item .h2{
@@ -558,8 +557,6 @@
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-
-
 }
 
 .item .img-box{
@@ -592,7 +589,6 @@
     justify-content: center;
     align-items: center;
     transform: translateX(calc(var(--i) * 100%));
-
 }
 
 .img-item img{
@@ -600,11 +596,9 @@
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, .2));
     transform: scale(0) ;
     transition: .5s ease;
-
 }
 .item.active .img-item img{
     transform: scale(1);
-
 }
 
 .thumbs{
@@ -622,7 +616,6 @@
     cursor: pointer;
     margin: 20px;
     overflow: hidden;
-
 }
 
 .thumbs li.selected{
@@ -648,7 +641,7 @@
 .item.active .bg {
     opacity: 1;
 }
-.item .bg::before{
+/*.item .bg::before{
     content: '';
     position: absolute;
     left: 50%;
@@ -660,21 +653,26 @@
     border-radius: 50% ;
     filter: blur(200px);
 
-}
+} */
 
 .item:nth-child(1) .bg{
-    background: #d8b97f;
+    background:  url(../img/bg4.jpg) center center no-repeat;
+    background-size: cover;
 }
 .item:nth-child(2) .bg{
-    background: #fe1e1e;
+    background:  url(../img/Harvesting.jpg) center center no-repeat;
+    background-size: cover;
 }
 .item:nth-child(3) .bg{
-    background: #8100b5;
+    background:  url(../img/Factory.jpg) center center no-repeat;
+    background-size: cover;
 }
 .item:nth-child(4) .bg{
-    background: #a76d00;
+    background:  url(../img/Shiping.jpg) center center no-repeat;
+    background-size: cover;
 }
 .item:nth-child(5) .bg{
-    background: #4fb34d;
+    background:  url(../img/Rice.jpg) center center no-repeat;
+    background-size: cover;
 }
 
