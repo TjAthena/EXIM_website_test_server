@@ -727,7 +727,7 @@ img{
 
     .item .img-box {
         left: 9%;
-        top: 75.5%; /* Adjust image position for mobile */
+        top: 74.9%; /* Adjust image position for mobile */
         width: 100%; /* Image box takes full width */
         height: auto; /* Adjust height */
     }
