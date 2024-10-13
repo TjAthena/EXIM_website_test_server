@@ -562,7 +562,7 @@
 .item .img-box{
     position: absolute;
     left: 35%;
-    top: 50%;
+    top: 63.5%;
     transform: translateY(-50%);
     width: 800px;
     height: 700px;
@@ -676,3 +676,18 @@
     background-size: cover;
 }
 
+img{
+	display:inline-block;
+	max-width:100%;
+	height:auto;	
+}
+
+.language-dropdown .dropdown-menu .dropdown-flag{
+	font-weight:400;
+	font-size:14px;
+	padding:8px 15px;
+	color: var(--white-color);
+	text-transform:capitalize;
+	background-color:#ffffff;
+	border-bottom:1px solid rgba(0, 0, 0, 0.20);
+}
