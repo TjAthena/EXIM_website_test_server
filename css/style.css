@@ -691,3 +691,65 @@ img{
 	background-color:#ffffff;
 	border-bottom:1px solid rgba(0, 0, 0, 0.20);
 }
+
+
+@media only screen and (max-width: 768px) {
+    .carousel {
+        height: 60vh; /* Adjust the height for mobile */
+    }
+
+    .item .info-box {
+        left: 5%;
+        top: 50%;
+        width: 90%; /* Adjust the width to fit mobile */
+        height: auto; /* Auto height for mobile */
+    }
+
+    .info-item .h2 {
+        font-size: 50px; /* Scale down the font size */
+    }
+
+    .info-item p {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info-item .btn {
+        width: 140px; /* Adjust button size */
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .item .img-box {
+        left: 5%;
+        top: 70%; /* Adjust image position for mobile */
+        width: 100%; /* Image box takes full width */
+        height: auto; /* Adjust height */
+    }
+
+    .thumbs {
+        right: 2%; /* Adjust thumbnail position */
+        width: 60px;
+        height: 60px;
+    }
+
+    .thumbs li {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+
+    .info-box .info_slider {
+        flex-direction: column; /* Stack vertically for mobile */
+    }
+
+    .info_slider .info-item {
+        height: auto; /* Let content dictate height */
+        text-align: center;
+    }
+
+    .img-item img {
+        max-width: 100%; /* Make images responsive */
+        height: auto;
+    }
+}
