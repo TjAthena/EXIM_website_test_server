@@ -561,10 +561,10 @@
 
 .item .img-box{
     position: absolute;
-    left: 35%;
+    left: 40%;
     top: 63.5%;
     transform: translateY(-50%);
-    width: 800px;
+    width: ;
     height: 700px;
     display: flex;
     align-items: center;
