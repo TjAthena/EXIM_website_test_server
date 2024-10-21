@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: #fff;
+    z-index: 2;
+}
+
+.showcase header{
+    padding: 40px 100px;
+    z-index: 1000;
+}
+
+.showcase img{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+.showcase h2{
+    color: #fff;
+    top: 250px;
+    position: absolute;
+    left: 300px;
+}
+.showcase p{
+    font-size: 20px;
+    position: absolute;
+    justify-content: center;
+    top: 300px;
+    left: 300px;
+    width: 400px;
+}
+
+
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding-bottom: 20px;
+
+}
+.text {
+    position: relative;
+    z-index: 10;
+    justify-content: center;
+
+}
+.hello{
+    height: 100vh;
+    padding-bottom :20px;
+}
+.video_place{
+    height: 100vh;
+    padding-bottom: 20px;
+    opacity: 0%;
+}
+
+
+/* Base styles remain unchanged */
+
+/* Media Query for Tablets */
+@media (max-width: 1024px) {
+    .showcase {
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Stack items vertically */
+    }
+    
+    .showcase header {
+        padding: 20px;
+    }
+    
+    .showcase img {
+        position: relative; /* Change to relative for stacking */
+        top: auto;
+        left: 250px;
+        margin: 20px 0; /* Add margin for spacing */
+    }
+
+    .showcase h2 {
+        top: auto;
+        left: 70px; /* Reset positioning */
+        position: relative; /* Change to relative for stacking */
+        margin: 10px 0;
+        text-align: center; /* Center text */
+    }
+
+    .showcase p {
+        top: auto;
+        left: 80px; /* Reset positioning */
+        position: relative; /* Change to relative for stacking */
+        margin: 10px 0;
+        width: 500px; /* Allow width to adjust */
+        text-align: center; /* Center text */
+    }
+
+    .showcase video {
+        height: auto; /* Adjust height */
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .showcase {
+        padding: 20px;
+        height: 700px; /* Reduce padding for smaller screens */
+    }
+
+    .showcase img {
+        top: 30px;
+        width: 60%; /* Make image responsive */
+        height: 70%; /* Maintain aspect ratio */
+        margin: 0;
+        left: 70px; /* Remove margin */
+    }
+
+    .showcase h2 {
+        top: 30px;
+        left: 0px;
+        font-size: 24px; /* Adjust font size */
+        margin: 0; /* Remove margin */
+    }
+
+    .showcase p {
+        top: 30px;
+        left: 10px;
+        font-size: 16px; /* Adjust font size */
+        width: 100%; /* Full width */
+    }
+
+    .showcase video {
+        width: auto;
+        height: 600px; /* Allow video to adjust to parent container */
+    }
+    .video_place {
+        flex-direction: column; /* Stack items in a column on mobile */
+        align-items: stretch;   /* Stretch items to fill container */
+    }
+
+    .video_place {
+        position: relative;
+        height:600px;          /* Allow the image to adjust based on content */            /* Full width */
+        padding-bottom: 10px;   /* Adjust padding for mobile */
+    }
+}
