@@ -52,7 +52,8 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h1 class="m-0" style="font-family: 'Rufina';"><i class="fa fa-building text-primary me-3"></i>LOGO</h1>
+            <img src="img/logo (2).png" class="toplg" alt="">
+            <!--<h1 class="m-0" style="font-family: 'Rufina';"><i class="fa fa-building text-primary me-3"></i>LOGO</h1>-->
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -62,26 +63,13 @@
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Us</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Import&Export</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">item1</a>
-                        <a href="appointment.html" class="dropdown-item">item2</a>
-                        <a href="team.html" class="dropdown-item">item3</a>
-                        <a href="testimonial.html" class="dropdown-item">item4</a>
-                        <a href="404.html" class="dropdown-item">item5</a>
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">p1</a>
-                        <a href="appointment.html" class="dropdown-item">P2</a>
-                        <a href="team.html" class="dropdown-item">P3</a>
-                        <a href="testimonial.html" class="dropdown-item">P4</a>
-                        <a href="404.html" class="dropdown-item">P5</a>
+                        <a href="feature.html" class="dropdown-item">product 1</a>
+                        <a href="appointment.html" class="dropdown-item">product2</a>
                     </div>
                 </div>
-                <a href="service.html" class="nav-item nav-link">Our Services</a>
+                <a href="service.html" class="nav-item nav-link">Our Process</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
         </div>
@@ -272,8 +260,29 @@
         </div>
     </div>
     <!-- About End -->
-     
+    <div class="logos">
+        <div class="logo-slide">
+            <img src="img/1.png" alt="">
+            <img src="img/2.png" alt="">
+            <img src="img/3.png" alt="">
+            <img src="img/4.png" alt="">
+            <img src="img/5.png" alt="">
+            <img src="img/6.png" alt="">
+        </div>
+        <div class="logo-slide">
+            <img src="img/1.png" alt="">
+            <img src="img/2.png" alt="">
+            <img src="img/3.png" alt="">
+            <img src="img/4.png" alt="">
+            <img src="img/5.png" alt="">
+            <img src="img/6.png" alt="">
+        </div>
+    </div>
 
+    <script>
+        var copy = document.querySelector(".logo-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+      </script>
     <!-- Facts Start -->
     <div class="container-fluid my-5 p-0">
         <div class="row g-0">
