@@ -8,13 +8,14 @@
     position: relative;
     display: flex; /* Flexbox ensures horizontal alignment */
     justify-content: space-around;
-    left: 180px;
-    width: 80%; /* Adjust the width as needed */
+    left: 0px;
+    width: 100%;
+    padding: 20px 0 40px 0; /* Adjust the width as needed */
 }
 
 .itemh {
     position: relative;
-    width: 150px;
+    width: 200px;
     height: 270px;
     margin: 0 10px; /* Add margin between items */
     cursor: pointer;
@@ -103,3 +104,7 @@
 .overlay100.active {
     display: block;
 }
+
+
+
+

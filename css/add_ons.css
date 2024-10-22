@@ -172,6 +172,7 @@
 
 body{
     background: #fff;
+    
 }
 
 @keyframes slide{
@@ -186,6 +187,7 @@ body{
     overflow: hidden;
     padding: 20px 0 ;
     background: #FDA12B;
+    margin-bottom: 40px;
     white-space: nowrap;
     position: relative;
 }
@@ -228,4 +230,35 @@ body{
     height: auto;
     margin: 0;
 
+}
+
+
+.addon_tittle .c2{
+    position: relative;
+    color: #182333;
+    left: 40%;
+    padding: 20px 10px 0px 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.social-one_logo{
+    position: relative;
+    width: 100%;
+    left: 48%;
+    top: 120px;
+    z-index: 1;
+}
+.social-one_logo::before {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    left: 60px; 
+    transform: translate(-50%, -50%);
+    width: 200px;  /* 50px radius means 100px diameter */
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust opacity as needed */
+    border-radius: 50%;
+    filter: blur(5px);
+    z-index: -1; /* Ensures the circle is behind the logo */
 }
