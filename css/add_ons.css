@@ -186,7 +186,7 @@ body{
 .logos {
     overflow: hidden;
     padding: 20px 0 ;
-    background: #FDA12B;
+    background: #7BB662;
     margin-bottom: 40px;
     white-space: nowrap;
     position: relative;
@@ -244,7 +244,7 @@ body{
 
 .social-one_logo{
     position: relative;
-    width: 100%;
+    width: 150px;
     left: 48%;
     top: 120px;
     z-index: 1;
