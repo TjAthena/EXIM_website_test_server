@@ -118,7 +118,8 @@
 @media (max-width: 600px) {
     .showcase {
         padding: 20px;
-        height: 700px; /* Reduce padding for smaller screens */
+        height: auto;
+        overflow: hidden; /* Reduce padding for smaller screens */
     }
 
     .showcase img {
