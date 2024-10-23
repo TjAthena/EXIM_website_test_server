@@ -12,7 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    backdrop-filter: blur(10px);
     color: #fff;
     z-index: 2;
 }
@@ -28,18 +29,46 @@
     top: 150px;
 }
 .showcase h2{
-    color: #fff;
+    color: #000000;
     top: 250px;
     position: absolute;
     left: 300px;
+    font-size: 40px;
+}
+.showcase h2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly less transparent white for background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow around the background */
+    filter: blur(30px); /* Applies blur to the background */
+    z-index: -1; /* Ensures the blur is behind the text */
+}
+.showcase p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly less transparent white for background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow around the background */
+    filter: blur(30px); /* Applies blur to the background */
+    z-index: -1; /* Ensures the blur is behind the text */
 }
 .showcase p{
-    font-size: 20px;
+    font-size: 17px;
     position: absolute;
     justify-content: center;
     top: 300px;
     left: 300px;
-    width: 400px;
+    width: 500px;
+    color: #000000;
 }
 
 
@@ -187,7 +216,7 @@ body{
 .logos {
     overflow: hidden;
     padding: 20px 0 ;
-    background: #7BB662;
+    background: #D1292A;
     margin-bottom: 40px;
     white-space: nowrap;
     position: relative;
