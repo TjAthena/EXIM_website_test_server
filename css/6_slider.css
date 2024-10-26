@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Assuming you have the GT Super Display Light font imported or available */
+@font-face {
+    font-family: 'gt_super_displaylight';
+    src: url('path/to/your/font-file.woff2') format('woff2'), /* Add the correct path to your font file */
+         url('path/to/your/font-file.woff') format('woff');
+    font-weight: 300; /* Adjust the weight as needed */
+    font-style: normal; /* Adjust if your font has a style */
+}
+
+h1 {
+    font-family: 'gt_super_displaylight', serif;
+}
+
+h3 {
+    font-family: 'gt_super_displaylight', serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    left: 30%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    transition: opacity 0.5s ease; /* optional for additional effect */
+    box-sizing: border-box; /* Include padding/border in width calculation */
+}
+
+.dots {
+    margin-top: 20px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: darkred;
+}

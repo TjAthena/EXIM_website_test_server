@@ -4,10 +4,12 @@
 /* Container for all elements */
 .container-vdp {
     position: relative;
-    left: 30%;
+    left: 21%;
     text-align: center;
-    width: 600px;
+    width: 900px;
+    height: 700px;
     padding-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 /* Styling for H3 heading */
@@ -43,13 +45,14 @@
 
 /* Images container with flexbox */
 .images-container1 {
+    width: 900;
     display: flex;
     justify-content: space-between;
 }
 
 /* Styling for images with animation */
 .images-container1 img {
-    width: 140px;
+    width: 200px;
     height: auto;
     opacity: 0;
     transform: translateY(30px);

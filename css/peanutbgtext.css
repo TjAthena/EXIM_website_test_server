@@ -1,14 +1,4 @@
-.image-container-tj {
-    position: relative;
-    margin-top: 50px;
-    padding-top: 100px;
-    margin-bottom: 40px;
-    width: 100%;
-    max-width: auto;
-    height: 100vh; /* Adjust based on your image dimensions */
-    background:  url(../img/peanut_into.jpg) center center no-repeat;
-    background-size: cover; /* Prevents image repetition */
-}
+
 .image-container-tj2 {
     position: relative;
     margin-top: 50px;
@@ -17,7 +7,7 @@
     width: 100%;
     max-width: 1920px;
     height: 100vh; /* Adjust based on your image dimensions */
-    background:  url(../img/abot_peanut2.jpg) center center no-repeat;
+    background:  url(../img/why_peanut.png) center center no-repeat;
     background-size: cover; /* Prevents image repetition */
 }
 .text-overlay-tj {

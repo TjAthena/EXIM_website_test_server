@@ -17,6 +17,7 @@
 
 /* Grid layout */
 .image-container123 {
+    height: 350px;
     padding-top: 30px;
     padding-bottom: 60px;
     display: grid;
@@ -24,7 +25,7 @@
     gap: 20px;
     justify-items: center;
     align-items: center;
-    width: 600px;
+    width: 800px;
 }
 
 /* Image style */
