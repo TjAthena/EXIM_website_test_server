@@ -303,3 +303,108 @@ body{
     filter: blur(5px);
     z-index: -1; /* Ensures the circle is behind the logo */
 }
+
+.container-3info {
+    text-align: center; /* Center align text */
+}
+
+.logo-3info {
+    max-width: 150px; /* Adjust logo size as needed */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+
+
+.images-container-3info {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align the image items */
+    gap: 20px; /* Space between images */
+    margin-top: 20px; 
+    padding-bottom: 40px;
+    /* Space above the image section */
+}
+
+.image-item-3info {
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;/* Center align content within image item */
+}
+
+.image-item-3info img {
+    width: auto; /* Adjust image size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images behave like block elements */
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 50px; /* Center images */
+}
+
+.image-item-3info p {
+    margin-top: 10px; /* Space above the description */
+    font-size: 1em; /* Description size */
+}
+
+
+.timeline-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.timeline-item {
+    text-align: center;
+    position: relative;
+    flex: 1;
+    margin-right: 40px; /* Adjust this to control spacing between checkpoints */
+}
+
+.timeline-item:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.timeline-date {
+    padding-bottom: 2px;
+    font-weight: bold;
+    margin-bottom: 8px; /* Space below the year */
+}
+
+.timeline-dot {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1; /* Make sure dot is above the line */
+}
+
+.timeline-content {
+    margin-top: 8px; /* Space above the description */
+    font-size: 0.9em;
+    color: #333;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 24px; /* Adjust to align the line perfectly with the dot's center */
+    left: 5%; /* Reduce this to align the line with the new spacing */
+    right: 5%; /* Reduce this to align the line with the new spacing */
+    height: 2px;
+    background-color: #ccc;
+    z-index: 0; /* Line stays behind the dots */
+}
