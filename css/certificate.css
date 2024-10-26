@@ -1,8 +1,16 @@
 
+@font-face {
+    font-family: 'gt_super_displaylight';
+    src: url('/fonts/GT-Super-Display-Light-Trial.otf') format('truetype'); /* Adjust to your actual file name */
+    font-weight: 300; /* Adjust the weight as needed */
+    font-style: normal; /* Adjust if your font has a style */
+}
+
 .heading123 {
+    font-family: 'gt_super_displaylight', serif;
+    color: #0b0b0b;
     margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: bold;
+    left: 6%;
 }
 
 /* Grid layout */
@@ -19,7 +27,7 @@
 .image-container123 {
     height: 350px;
     padding-top: 30px;
-    padding-bottom: 60px;
+   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;

@@ -1,6 +1,11 @@
 /* General body styling */
 
-
+@font-face {
+    font-family: 'gt_super_displaylight';
+    src: url('/fonts/GT-Super-Display-Light-Trial.otf') format('truetype'); /* Adjust to your actual file name */
+    font-weight: 300; /* Adjust the weight as needed */
+    font-style: normal; /* Adjust if your font has a style */
+}
 /* Container for all elements */
 .container-vdp {
     position: relative;
@@ -13,11 +18,11 @@
 }
 
 /* Styling for H3 heading */
-.h3-vdp {
+.h1-vdp {
     margin-bottom: 10px;
-    font-size: 24px;
-    color: #182333;
-    font-family: "Poppins", sans-serif;
+    font-family: 'gt_super_displaylight', serif;
+    color: #0b0b0b;
+    padding-bottom: 10px;
 }
 
 /* Styling for paragraph */
@@ -26,6 +31,7 @@
     font-size: 16px;
     color: #182333;
     font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
 }
 
 /* Video container */
@@ -48,6 +54,7 @@
     width: 900;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 /* Styling for images with animation */

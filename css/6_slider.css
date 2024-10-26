@@ -4,14 +4,14 @@
 /* Assuming you have the GT Super Display Light font imported or available */
 @font-face {
     font-family: 'gt_super_displaylight';
-    src: url('path/to/your/font-file.woff2') format('woff2'), /* Add the correct path to your font file */
-         url('path/to/your/font-file.woff') format('woff');
+    src: url('/fonts/GT-Super-Display-Light-Trial.otf') format('truetype'); /* Adjust to your actual file name */
     font-weight: 300; /* Adjust the weight as needed */
     font-style: normal; /* Adjust if your font has a style */
 }
 
 h1 {
     font-family: 'gt_super_displaylight', serif;
+    color: #0b0b0b;
 }
 
 h3 {
@@ -21,6 +21,12 @@ h3 {
 
 p {
     font-family: 'Poppins', sans-serif;
+}
+
+.highlight {
+    color:#C8102E ; /* Change this to your desired color */
+    font-weight: bold; /* Make the text bold */
+    font-style: italic; /* Make the text italic */
 }
 
 .slider-container {

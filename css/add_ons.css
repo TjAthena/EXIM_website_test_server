@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'gt_super_displaylight';
+    src: url('/fonts/GT-Super-Display-Light-Trial.otf') format('truetype'); /* Adjust to your actual file name */
+    font-weight: 300; /* Adjust the weight as needed */
+    font-style: normal; /* Adjust if your font has a style */
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -266,11 +273,13 @@ body{
 
 
 .addon_tittle .c2{
+    margin-top: 60px;
     position: relative;
+    font-family: 'gt_super_displaylight', serif;
     color: #182333;
-    left: 40%;
-    padding: 110px 10px 0px 10px;
-    width: 300px;
+    left: 35%;
+    width: 500px;
+    font-size: 39.50px;
     text-align: center;
 }
 
