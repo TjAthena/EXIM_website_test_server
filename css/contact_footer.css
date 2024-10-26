@@ -1,5 +1,5 @@
 .background-image-sui {
-    background-image: url('/img/peanut_contact1.jpg'); /* Replace with your image path */
+    background-image: url('../img/peanut_contact1.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     width: 100%;
