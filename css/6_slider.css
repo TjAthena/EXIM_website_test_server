@@ -8,6 +8,12 @@
     font-weight: 300; /* Adjust the weight as needed */
     font-style: normal; /* Adjust if your font has a style */
 }
+@font-face {
+    font-family: 'STYLE';
+    src: url('../fonts/Childa\ italic.otf') format('truetype'); /* Adjust to your actual file name */
+ /* Adjust the weight as needed */
+    font-style: normal; /* Adjust if your font has a style */
+}
 
 h1 {
     font-family: 'gt_super_displaylight', serif;
@@ -27,6 +33,10 @@ p {
     color:#C8102E ; /* Change this to your desired color */
     font-weight: bold; /* Make the text bold */
     font-style: italic; /* Make the text italic */
+}
+.highlight1 {
+    font-family:STYLE;
+    color:#C8102E ; /* Change this to your desired color */ /* Make the text italic */
 }
 
 .slider-container {
