@@ -544,6 +544,8 @@
 
 .carousel {
     height: 90vh;
+    margin-bottom: 60px;
+    
 }
 .item .info-box{
     position: absolute;

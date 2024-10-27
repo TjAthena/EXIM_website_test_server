@@ -159,3 +159,44 @@ p {
     display: block; /* Show the active image */
     opacity: 1; /* Fade in */
 }
+
+
+
+
+.container-cn {
+    position: relative;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 20%;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.section-cn {
+    margin-left: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.6), 0 0 10px rgba(255, 0, 0, 0.4); /* Glowing red shadow */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.section-cn:hover {
+    box-shadow: 0 4px 30px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.6); /* Enhanced glow on hover */
+}
+
+.section-cn h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.section-cn p {
+    margin: 5px 0;
+    color: #555;
+}
