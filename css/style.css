@@ -223,7 +223,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.358), rgba(0, 0, 0, 0.336)), url(../img/page_head.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -639,20 +639,22 @@
     transform: scale(1);
 }
 
-.thumbs{
+.thumbs {
     position: absolute;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
     list-style: none;
+    gap: 20px; /* Space between thumbnails */
 }
-.thumbs li{
-    width: 95px;
-    height: 95px;
+
+.thumbs li {
+    width: 75px; /* Adjust size if needed */
+    height: 75px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    margin: 20px;
     overflow: hidden;
 }
 
