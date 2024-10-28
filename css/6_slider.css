@@ -210,3 +210,94 @@ p {
     margin: 5px 0;
     color: #555;
 }
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    body {
+         /* Add padding to the body */
+    }
+    
+    h1, h3, p {
+        font-size: 25px; /* Adjust font sizes for mobile */
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .slider-container {
+        width: 100%;
+        left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        z-index: 10;
+    }
+
+    .container-tj-200,
+    .container-cn,
+    .container-3info{
+        width: 100%; /* Full width for containers */
+        height: auto; /* Let height adjust */
+        left: 0;
+    }
+    .container123 {
+        position: relative;
+        bottom: 80px;
+        width: 100%; /* Full width for containers */
+        height: auto; /* Let height adjust */
+    }
+
+    .side-menu-tj-200,
+    .center-content-tj-200,
+    .image-section-tj-200 {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .side-menu-tj-200 h3 {
+        font-size: 1em;
+        padding: 8px 0;
+    }
+
+    .center-content-tj-200,
+    .details-tj-200,
+    .section-cn {
+        width: 100%;
+        height: auto; /* Auto height for content sections */
+    }
+
+    .details-tj-200 {
+        width: 100%;
+    }
+
+    .section-cn {
+        padding: 15px;
+        margin: 0 auto 20px;
+        width: 100%;
+        box-shadow: 0 2px 10px rgba(255, 0, 0, 0.5), 0 0 5px rgba(255, 0, 0, 0.3);
+    }
+
+    .section-cn h2 {
+        font-size: 1em;
+    }
+
+    .highlight, .highlight1 {
+        font-size: 1em;
+    }
+
+    .dots, .dot {
+        margin-top: 15px;
+    }
+
+    .detailsimg-tj-200 {
+        width: 100%;
+    }
+}

@@ -15,8 +15,8 @@
 
 .itemh {
     position: relative;
-    width: 200px;
-    height: 270px;
+    width: 300px;
+    height: 370px;
     margin: 0 10px; /* Add margin between items */
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -107,4 +107,69 @@
 
 
 
+/* For devices with a max width of 768px */
+@media only screen and (max-width: 768px) {
+    .containertj {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; 
+        bottom: 60px; /* Center align items */
+        padding: 10px 0 20px 0;
+        height: auto;
+    }
+
+    .itemh {
+        width: 300px;    /* Smaller item width */
+        height: auto;   /* Smaller item height */
+        margin: 15px 0;  /* Vertical margin between items */
+    }
+
+    .popup {
+        width: 90%;       /* Make the popup width flexible */
+        height: auto;     /* Auto height to fit content */
+        max-height: 80vh; /* Limit popup height on smaller screens */
+        padding: 15px;
+        top: 30%;
+    }
+
+    .popup-image {
+        max-height: 200px; /* Adjust max height for image */
+    }
+
+    .close-btn {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+}
+
+/* For devices with a max width of 480px (small mobile devices) */
+@media only screen and (max-width: 480px) {
+    .itemh {
+        width: 200px;    /* Further reduce item width */
+        height: auto; 
+        padding-bottom: 10px;  /* Further reduce item height */
+    }
+
+    .itemh-title {
+        font-size: 20px; 
+        padding-bottom: 10px;/* Smaller font for titles */
+    }
+
+    .popup {
+        padding: 10px;
+        border-radius: 8px;  /* Reduce border radius */
+    }
+
+    .popup-image {
+        max-height: 150px; /* Smaller image for smaller screens */
+    }
+
+    .popup-details p {
+        font-size: 14px; /* Smaller text in popup details */
+    }
+
+    .close-btn {
+        font-size: 12px;
+        padding: 4px 6px;  /* Smaller button padding */
+    }
+}
 

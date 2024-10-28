@@ -132,3 +132,81 @@
     background-color: darkred; /* Darker shade on hover */
     color: #fff; /* Keep text color white on hover */
 }
+
+
+
+
+/* For devices with a max width of 768px (tablets and smaller screens) */
+@media only screen and (max-width: 768px) {
+    .image-container-tj2 {
+        padding-top: 50px; /* Reduced padding for smaller screens */
+        height: 60vh;      /* Adjusted height to fit mobile layout */
+        background-size: cover;
+    }
+
+    .text-overlay-tj {
+        padding: 0 10px; /* Add some horizontal padding */
+    }
+
+    .heading3-tj, .heading3-tj2 {
+        font-size: 50px;  /* Reduced font size */
+        bottom: 100px;     /* Adjusted positioning */
+        -webkit-text-stroke: 2px white;
+    }
+
+    .heading4-tj1 {
+        font-size: 30px;
+        bottom: 60px;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .paragraph-tj, .paragraph-tj2 {
+        width: 90%;       /* Full width on mobile */
+        font-size: 18px;  /* Smaller text size */
+        left: 0;
+        padding: 5px;
+    }
+
+    .products-tj, .env-btn {
+        padding: 8px 15px;  /* Smaller button padding */
+        font-size: 16px;    /* Smaller font size for buttons */
+        border-radius: 15px;
+        bottom: 40px;       /* Adjusted positioning */
+    }
+}
+
+/* For very small screens, max width of 480px (small mobile devices) */
+@media only screen and (max-width: 480px) {
+    .heading3-tj, .heading3-tj2 {
+        font-size: 80px;  /* Further reduce font size */
+        bottom: 190px;
+    }
+
+    .heading4-tj1 {
+        font-size: 40px;
+        bottom: 180px;
+    }
+
+    .paragraph-tj, .paragraph-tj2 {
+        left: 20px;
+        font-size: 18px;
+        bottom: 180px;
+        padding: 0;
+    }
+
+    .products-tj{
+        padding: 6px 10px;
+        left: 10px;
+        bottom: 120px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+    .env-btn {
+        padding: 6px 10px;
+        top: 20%;
+        left: 35%;
+        bottom: 120px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+}

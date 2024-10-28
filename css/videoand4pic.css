@@ -90,3 +90,65 @@
         transform: translateY(0);
     }
 }
+
+
+
+
+
+
+/* For devices with a max width of 768px (tablets and smaller screens) */
+@media only screen and (max-width: 768px) {
+    .container-vdp {
+        width: 90%; /* Full width for mobile */
+        left: 5%; /* Centered positioning */
+        padding: 20px;
+        height: auto; /* Adjusts height to content */
+        margin-bottom: 30px;
+    }
+
+    .h1-vdp {
+        font-size: 24px; /* Smaller font size for headings */
+        padding-bottom: 5px;
+    }
+
+    .p-vdp {
+        font-size: 14px; /* Smaller font size for paragraphs */
+        padding-bottom: 10px;
+    }
+
+    .video-container1 {
+        width: 100%;
+        height: auto; /* Adjust height to fit content */
+        margin-bottom: 20px;
+        border-radius: 15px; /* Slightly smaller radius for mobile */
+    }
+
+    .images-container1 {
+        width: 100%; /* Full width on mobile */
+        flex-direction: column; /* Stack images vertically */
+        align-items: center;
+    }
+
+    .images-container1 img {
+        width: 100%; /* Full width for images */
+        max-width: 250px; /* Limit max width */
+        margin-bottom: 20px; /* Space between images */
+    }
+}
+
+/* For very small screens, max width of 480px (small mobile devices) */
+@media only screen and (max-width: 480px) {
+    .h1-vdp {
+        font-size: 30px;
+         /* Further reduce font size for very small screens */
+    }
+
+    .p-vdp {
+        font-size: 15px;
+    }
+
+    .images-container1 img {
+        max-width: 200px; /* Further reduce max width */
+    }
+}
+

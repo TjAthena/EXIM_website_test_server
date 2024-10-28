@@ -9,7 +9,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+
 .showcase {
     position: absolute;
     right: 0;
@@ -203,17 +205,6 @@
 
 /* slider animation */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background: #fff;
-    
-}
-
 @keyframes slide{
     from {
         transform: translateX(0);
@@ -270,10 +261,19 @@ body{
     margin: 0;
 
 }
-
-
-.addon_tittle .c2{
+.c2{
     margin-top: 60px;
+    position: relative;
+    top: 150px;
+    font-family: 'gt_super_displaylight', serif;
+    color: #182333;
+    left: 35%;
+    width: 500px;
+    font-size: 39.50px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.c3{
     position: relative;
     font-family: 'gt_super_displaylight', serif;
     color: #182333;
@@ -281,8 +281,8 @@ body{
     width: 500px;
     font-size: 39.50px;
     text-align: center;
+    padding-bottom: 80px;
 }
-
 .social-one_logo{
     position: relative;
     width: 150px;
@@ -487,3 +487,138 @@ h1 {
     position: relative;
     left: 10%;
   }
+
+
+
+  /* Smaller Font and Padding Adjustments */
+  @media (max-width: 600px) {
+    .c2 {
+        position: relative;
+        top: -20px;
+        left: 0; /* Center-align on mobile */
+        width: 90%; /* Adjust width to fit screen */
+        font-size: 30px; /* Smaller font size for readability */
+        margin: 0 auto; /* Center the container */
+        padding-bottom: 40px; /* Adjust top position */
+    }
+    .c3 {
+        left: 0; /* Center-align on mobile */
+        width: 90%; /* Adjust width to fit screen */
+        font-size: 30px; /* Smaller font size for readability */
+        margin: 0 auto; /* Center the container */
+        padding-bottom: 40px; /* Reduce padding */
+    }
+
+    .social-one_logo {
+        width: 100px; /* Smaller logo for mobile */
+        top: 60px; /* Adjust position */
+        left: auto; /* Reset left positioning */
+    }
+
+    .images-container-3info {
+        flex-direction: column; /* Stack images vertically on mobile */
+        align-items: center; /* Center images */
+    }
+
+    .image-item-3info {
+        padding: 10px; /* Reduce padding for mobile */
+    }
+
+    .timeline {
+        flex-direction: column; /* Stack timeline items vertically */
+    }
+
+    .timeline-item {
+        margin-right: 0; /* Remove right margin for mobile */
+        margin-bottom: 20px; /* Space between timeline items */
+    }
+    .logos {
+        bottom: 110px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .logos:before,
+    .logos:after {
+        width: 100px;
+        
+    }
+    .logo-slide img {
+        width: auto;
+        height: 60px;
+        padding-left: 5px; /* Adjust image width */
+    }
+
+    .social-one_logo {
+        width: 100px; /* Reduce logo width */
+        left: 35%; /* Center logo more accurately on mobile */
+        top: 0px;
+        opacity: 0%; /* Reduce top spacing */
+    }
+
+    .social-one_logo::before {
+        width: 150px; /* Reduce background circle size */
+        height: 150px;
+        left: 50%; /* Center circle to logo */
+        top: 0%; /* Center circle to logo */
+        opacity: 0%;
+    }
+    .testimonial-carousel .owl-item img {
+        position: relative;
+        width: 70px; /* Reduce image size for mobile */
+        height: 70px;
+        left: 38%;
+    }
+
+    .testimonial-carousel .owl-nav {
+        margin-top: 20px;
+        left: 30%;
+        justify-content: center;
+        font-size: 18px; /* Center navigation buttons */
+    }
+
+    .testimonial-carousel .owl-nav .owl-prev,
+    .testimonial-carousel .owl-nav .owl-next {
+        width: 40px; /* Smaller navigation button */
+        height: 40px;
+        font-size: 16px; /* Adjust font size */
+        margin-right: 10px; /* Reduce space between buttons */
+    }
+    .ik{
+        position: relative;
+        left: 30%;
+    }
+    @media (max-width: 600px) {
+        .timeline {
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items */
+            position: relative;
+        }
+    
+        .timeline-item {
+            margin: 20px 0; /* Add space between items */
+            text-align: center; /* Center text for a uniform look */
+        }
+    
+        .timeline-dot {
+            margin: 0 auto;
+             /* Center dot */
+        }
+    
+        .timeline-content {
+            margin-top: 4px; /* Adjust spacing above description */
+        }
+    
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0; /* Position at the top of the timeline */
+            left: 50%; /* Center the line horizontally */
+            width: 3px; /* Make the line vertical */
+            height: 100%; /* Extend the line to cover the full height */
+            background-color: #ccc;
+            transform: translateX(-50%); /* Center the line precisely */
+            z-index: -1; /* Place the line behind all other elements */
+        }
+    }
+    
+}

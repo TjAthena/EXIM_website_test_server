@@ -37,3 +37,55 @@ h5 {
 .cta-button:hover {
     background-color: rgba(255, 0, 0, 0.1); /* Light red background on hover */
 }
+
+
+/* For mobile devices with a max width of 768px */
+@media only screen and (max-width: 768px) {
+    .background-image-sui {
+        height: 40vh; /* Reduce height on smaller screens */
+        background-position: center;
+        background-size: cover;
+    }
+
+    .text-container {
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    h3 {
+        font-size: 20px; /* Adjust heading size */
+        margin-bottom: 8px; /* Reduce spacing */
+    }
+
+    h5 {
+        font-size: 16px; /* Adjust subheading size */
+        margin-bottom: 8px; /* Reduce spacing */
+    }
+
+    .cta-button {
+        font-size: 14px; /* Smaller button text */
+        padding: 8px 16px; /* Adjust button padding */
+        margin-top: 20px; /* Reduce margin above button */
+    }
+}
+
+/* For very small mobile devices with a max width of 480px */
+@media only screen and (max-width: 480px) {
+    .background-image-sui {
+        height: 35vh; /* Further reduce height */
+    }
+
+    h3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24px; /* Smaller heading */
+    }
+
+    h5 {
+        font-size: 14px; /* Smaller subheading */
+    }
+
+    .cta-button {
+        font-size: 12px; /* Smaller button text */
+        padding: 6px 12px; /* Smaller button padding */
+    }
+}
