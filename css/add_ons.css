@@ -9,9 +9,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+body{
     overflow-x: hidden;
 }
-
 .showcase {
     position: absolute;
     right: 0;
@@ -406,7 +408,7 @@ h1 {
     right: -10%; /* Reduce this to align the line with the new spacing */
     height: 3px;
     background-color: #ccc;
-    z-index: 0; /* Line stays behind the dots */
+    z-index: -1; /* Line stays behind the dots */
 }
 
 .container-products {
