@@ -219,6 +219,7 @@ p {
     h1, h3, p {
         font-size: 25px; /* Adjust font sizes for mobile */
         text-align: center;
+        padding-top: 30px;
     }
     h1{
         font-size: 30px;

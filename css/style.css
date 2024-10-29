@@ -97,6 +97,12 @@
 }
 
 /*change bar*/
+.navbar .navbar-brand {
+    position: absolute;
+    bottom: 500px;
+    opacity: 0px;
+    
+}
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -144,6 +150,7 @@
         transition: .5s;
         opacity: 1;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -157,11 +164,11 @@
     /* Logo styling */
     .navbar .navbar-brand {
         position: absolute;
-        left: 15px;
+        left: 0px;
         top: 10px;
-        width: 120px; /* Set width as needed */
+        width: 250px; /* Set width as needed */
         height: 40px; /* Adjust height as needed */
-        background-image: url('../img/lotus.png'); /* Add the logo here */
+         /* Add the logo here */
         background-size: contain;
         background-repeat: no-repeat;
         background-position: left;
@@ -171,9 +178,7 @@
     /* Navbar items alignment and styling */
     .navbar .navbar-nav {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 60px; /* Space for the logo above */
+        flex-direction: column; /* Space for the logo above */
     }
 
     /* Navbar links styling */
@@ -181,7 +186,7 @@
         margin: 10px 0;
         padding: 12px 20px;
         font-size: 14px;
-        text-align: left;
+        text-align: center;
         float: none;
         width: 100%;
     }
@@ -193,7 +198,7 @@
 
     /* Hide elements or adjust spacing as needed */
     .navbar-collapse {
-        background-color: var(--primary); /* Optional mobile background color */
+         /* Optional mobile background color */
         padding: 10px;
     }
 }
@@ -765,7 +770,7 @@ img{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .carousel {
         height: 60vh; /* Adjust the height for mobile */
     }
@@ -796,6 +801,7 @@ img{
         left: 30%;
         bottom: 10px;
         font-size: 14px;
+        opacity: 0%;
     }
 
     .item .img-box {
@@ -809,8 +815,10 @@ img{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        top: 85%; /* Add spacing between the list items */
-        width: 412px;
+        top: 103%; /* Add spacing between the list items */
+        width: 400px;
+        height: 90px;
+        left: 45%;
       }
     
       .thumbs li {
