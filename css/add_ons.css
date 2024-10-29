@@ -588,6 +588,7 @@ h1 {
     .ik{
         position: relative;
         left: 30%;
+        width: 250px;
     }
     @media (max-width: 600px) {
         .timeline {
@@ -622,5 +623,4 @@ h1 {
             z-index: -1; /* Place the line behind all other elements */
         }
     }
-    
 }
