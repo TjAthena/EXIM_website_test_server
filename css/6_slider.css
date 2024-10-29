@@ -170,9 +170,6 @@ p {
     opacity: 1; /* Fade in */
 }
 
-
-
-
 .container-cn {
     position: relative;
     width: 900px;
@@ -239,16 +236,22 @@ p {
         margin-bottom: 20px;
         z-index: 10;
     }
-
-    .container-tj-200,
-    .container-cn,
     .container-3info{
         width: 100%; /* Full width for containers */
         height: auto; /* Let height adjust */
         left: 0;
     }
+    .container-tj-200{
+        width: 100%; /* Full width for containers */
+        height: 40vh; /* Let height adjust */
+        left: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
     .container123 {
         position: relative;
+
         bottom: 80px;
         width: 100%; /* Full width for containers */
         height: auto; /* Let height adjust */
@@ -299,5 +302,73 @@ p {
 
     .detailsimg-tj-200 {
         width: 100%;
+    }
+    .side-menu-tj-200 {
+        width: 100%;
+        text-align: left;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .side-menu-tj-200 h3 {
+        font-size: 1rem;
+    }
+
+    .side-menu-tj-200 hr {
+        margin: 5px 0;
+    }
+
+    /* Center Content */
+    .center-content-tj-200 {
+        width: 100%;
+        height: auto;
+    }
+
+    .details-tj-200 {
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+        max-width: auto;
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    /* Right Side Image Section */
+    .image-section-tj-200 {
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detailsimg-tj-200 {
+        max-width: 90%;
+        margin: 0 auto;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    .container-cn {
+        width: auto;
+        flex-direction: column;
+        left: 0;
+        padding: 20px 10px;
+        gap: 15px;
+    }
+
+    /* Section adjustments */
+    .section-cn {
+        width: 100%;
+        margin-left: 0;
+        padding: 15px;
+        box-shadow: 0 3px 15px rgba(255, 0, 0, 0.5), 0 0 8px rgba(255, 0, 0, 0.3); /* Slightly lighter glow */
+    }
+
+    /* Text adjustments */
+    .section-cn h2 {
+        font-size: 1em;
+    }
+
+    .section-cn p {
+        font-size: 0.9em;
     }
 }
