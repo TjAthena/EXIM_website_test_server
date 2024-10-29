@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .containertj {
     position: relative;
     display: flex; /* Flexbox ensures horizontal alignment */
@@ -20,6 +21,13 @@
     margin: 0 10px; /* Add margin between items */
     cursor: pointer;
     transition: transform 0.3s ease;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 1.8s ease, transform 0.3s ease;
+}
+.itemh.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Move to original position */
 }
 
 .itemh img {
@@ -42,7 +50,7 @@
 .popup {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     width: 600px;    /* Fixed width */
     height: 500px;   /* Fixed height */
@@ -52,10 +60,14 @@
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     z-index: 10;
+    opacity: 0; /* Start invisible */
+    transition: top 1.2s ease, opacity 1.2s ease;
 }
 
 .popup.active {
-    display: block;
+    display: block; /* Scale to normal size */
+    opacity: 1; 
+    transform: translateY(-50);
 }
 
 .popup-content {
@@ -65,6 +77,7 @@
 }
 
 .popup-image {
+    position: relative;
     width: 100%;
     height: auto;
     max-height: 250px; /* Fixed height for landscape format */
@@ -87,6 +100,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    align-items: center;
 }
 
 /* Overlay to darken background */
