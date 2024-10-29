@@ -96,13 +96,6 @@
     margin-left: auto; /* Keeps the toggler button to the right on smaller screens */
 }
 
-@media (max-width: 992px) {
-    .centered-navbar .navbar-nav {
-        justify-content: flex-start; /* Align left on smaller screens */
-    }
-}
-
-
 /*change bar*/
 .navbar.sticky-top {
     top: -100px;
@@ -133,18 +126,6 @@
     margin-left: 8px;
 }
 
-@media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
-        margin-left: 0;
-        padding: 10px 0;
-    }
-
-    .navbar .navbar-nav {
-        margin-top: 25px;
-        border-top: 1px solid #EEEEEE;
-    }
-}
-
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
@@ -165,6 +146,57 @@
     }
 }
 
+@media (max-width: 600px) {
+    /* Navbar sticky top adjustment */
+    .navbar.sticky-top {
+        top: 0;
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+    /* Logo styling */
+    .navbar .navbar-brand {
+        position: absolute;
+        left: 15px;
+        top: 10px;
+        width: 120px; /* Set width as needed */
+        height: 40px; /* Adjust height as needed */
+        background-image: url('../img/lotus.png'); /* Add the logo here */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    
+    /* Navbar items alignment and styling */
+    .navbar .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 60px; /* Space for the logo above */
+    }
+
+    /* Navbar links styling */
+    .navbar .navbar-nav .nav-link {
+        margin: 10px 0;
+        padding: 12px 20px;
+        font-size: 14px;
+        text-align: left;
+        float: none;
+        width: 100%;
+    }
+
+    /* Dropdown styling */
+    .navbar .dropdown-toggle::after {
+        margin-left: 5px;
+    }
+
+    /* Hide elements or adjust spacing as needed */
+    .navbar-collapse {
+        background-color: var(--primary); /* Optional mobile background color */
+        padding: 10px;
+    }
+}
 
 /*** Header ***/
 .carousel-caption {
