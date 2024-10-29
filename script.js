@@ -31,3 +31,4 @@ setInterval(() => {
     index = (index + 1) % items.length;
     showSlide(index);
 }, 2000); // 800 ms (0.8 seconds)
+

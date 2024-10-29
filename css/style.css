@@ -118,9 +118,17 @@
     float: left;
 }
 
-.navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--secondary); /* Primary color for active state */ /* Optionally, underline the active link */
+}
+
+/* Ensure non-active links retain their styling */
+.navbar .navbar-nav .nav-link {
+    color: var(--secondary); /* Color for non-active links */
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #ffff;
+    text-shadow: 0 0 30px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary);
 }
 
 .navbar .dropdown-toggle::after {

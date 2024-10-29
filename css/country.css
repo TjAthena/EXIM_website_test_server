@@ -8,7 +8,7 @@
     position: relative;
     display: flex; /* Flexbox ensures horizontal alignment */
     justify-content: space-around;
-    left: 0px;
+    left: 50px;
     width: 100%;
     padding: 20px 0 40px 0; /* Adjust the width as needed */
 }
