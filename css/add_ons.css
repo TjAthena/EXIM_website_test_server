@@ -187,7 +187,6 @@ body{
     }
 
     .showcase video {
-        width: auto;
         height: 600px; /* Allow video to adjust to parent container */
     }
     .video_place {
