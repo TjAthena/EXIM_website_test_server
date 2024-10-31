@@ -255,11 +255,14 @@ body{
 
 .logo-slide{
     display: inline-block;
-    animation: 20s slide infinite linear;
 }
 .logo-slide img{
+    position: relative;
     height: auto;
     margin: 0;
+    left: 40%;
+    padding-left: 120px;
+    padding-right: 120px;
 
 }
 .c2{
