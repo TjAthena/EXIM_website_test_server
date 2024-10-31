@@ -88,11 +88,12 @@ p {
     position: relative;
     display: flex;
     gap: 20px;
-    width: 900px;
-    height: 40vh;
+    width: 1100px;
+    height: auto;
+    max-height: 550px;
     padding-top: 40px;
     padding-bottom: 40px;
-    left: 25%;
+    left: 15%;
 }
 
 /* Left Side Menu */
@@ -124,6 +125,7 @@ p {
 .center-content-tj-200 {
     width: 50%;
     height: 40vh;
+    left: 8%;
     text-align: center;
     position: relative; /* Make position relative for animations */
     overflow: hidden; /* Hide overflow for clean animation */
@@ -131,7 +133,8 @@ p {
 
 .details-tj-200 {
     position: absolute; /* Position absolutely to enable animations */
-    width: 400px; /* Full width */
+    width: 400px;
+    /* Full width */
     opacity: 0; /* Start invisible */
     transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth fade-in effect */
 }
@@ -150,7 +153,9 @@ p {
 
 /* Right Side Image Section */
 .image-section-tj-200 {
+    position: relative;
     width: 30%;
+    bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
