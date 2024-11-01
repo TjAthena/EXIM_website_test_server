@@ -72,7 +72,7 @@
     width: 350px;
     bottom: 130px;
     left: 25px;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 0;
     font-family: serif;  
 }
@@ -133,6 +133,19 @@
     color: #fff; /* Keep text color white on hover */
 }
 
+.container-lg {
+    width: 500px;
+    text-align: center;
+}
+
+/* Style for the H1 title */
+.title-lg {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Background area for images */
 
 
 

@@ -6,16 +6,20 @@
     font-style: normal; /* Adjust if your font has a style */
 }
 
+
 .heading123 {
+    position: relative;
     font-family: 'gt_super_displaylight', serif;
     color: #0b0b0b;
     padding-top: 40px;
     margin-bottom: 20px;
-    left: 6%;
+    left: 3%;
 }
 
 /* Grid layout */
 .container123 {
+    position: relative;
+    top: 180px;
     display: flex;
     justify-content: center; /* Horizontally center the container */
     align-items: center;     /* Vertically center the container */
@@ -37,6 +41,41 @@
     justify-items: center;
     align-items: center;
     width: 1000px;
+}
+
+/* Image style */
+.image-container123 img {
+    width: 120px;
+    height: auto;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 2s, transform 2s;
+}
+
+.container345 {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center;     /* Vertically center the container */
+    height:auto;           /* Full height of the viewport */
+    flex-direction: column;  /* To stack the heading and image container vertically */
+}
+.image-container345 img.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Grid layout */
+.image-container345 {
+    height: auto;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    width: 600px;
 }
 
 /* Image style */
