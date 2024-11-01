@@ -14,6 +14,12 @@
  /* Adjust the weight as needed */
     font-style: normal; /* Adjust if your font has a style */
 }
+@font-face {
+    font-family: 'Playfast';
+    src: url('../fonts/PlaywriteGBS-VariableFont_wght.ttf') format('truetype'); /* Adjust to your actual file name */
+ /* Adjust the weight as needed */
+    font-style: normal; /* Adjust if your font has a style */
+}
 
 h1 {
     font-family: 'gt_super_displaylight', serif;
@@ -35,7 +41,7 @@ p {
     font-style: italic; /* Make the text italic */
 }
 .highlight1 {
-    font-family:STYLE;
+    font-family: 'Playfast';
     color:#C8102E ; /* Change this to your desired color */ /* Make the text italic */
 }
 
