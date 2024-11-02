@@ -130,14 +130,19 @@
         flex-direction: column; /* Stack items vertically */
         align-items: center; 
         bottom: 60px; /* Center align items */
-        padding: 10px 0 20px 0;
+        padding: 20px;
+        padding-right: 40px;
         height: auto;
     }
-
-    .itemh {
-        width: 300px;    /* Smaller item width */
+    .itemh img{
+        padding-left: 0;
+        width: auto;    /* Smaller item width */
         height: auto;   /* Smaller item height */
-        margin: 15px 0;  /* Vertical margin between items */
+          /* Vertical margin between items */
+    }
+    .itemh-title{
+        width: auto;    /* Smaller item width */
+        height: auto;   /* Smaller item height *  /* Vertical margin between items */
     }
 
     .popup {

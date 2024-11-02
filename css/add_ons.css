@@ -529,7 +529,8 @@ h1 {
         width: 90%; /* Adjust width to fit screen */
         font-size: 30px; /* Smaller font size for readability */
         margin: 0 auto; /* Center the container */
-        padding-bottom: 40px; /* Adjust top position */
+        padding-bottom: 0;
+        padding-top: 40px; /* Adjust top position */
     }
     .c3 {
         left: 0; /* Center-align on mobile */

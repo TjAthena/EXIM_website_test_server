@@ -791,7 +791,7 @@ img{
     }
 
     .info-item .h2 {
-        font-size: 50px; /* Scale down the font size */
+        font-size: 30px; /* Scale down the font size */
     }
 
     .info-item p {
@@ -813,7 +813,7 @@ img{
     }
 
     .item .img-box {
-        left: 9%;
+        left: 0%;
         top: 74.7%; /* Adjust image position for mobile */
         width: 100%; /* Image box takes full width */
         height: auto; /* Adjust height */
