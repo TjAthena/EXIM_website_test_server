@@ -69,9 +69,33 @@
                 <a href="service.html" class="nav-item nav-link">Products</a>
                 <a href="feature.html" class="nav-item nav-link">Sustainability</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <!--language doggle-->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img id="activeLangFlag" src="img/en.png" alt="English" width="20" class="me-2"> English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li>
+                            <a class="dropdown-item" href="index.html" onclick="setLanguage('img/en.png', 'English')">
+                                <img src="img/en.png" alt="EN" width="20" class="me-2"> EN
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('img/sp.png', 'Spanish')">
+                                <img src="img/sp.png" alt="SP" width="20" class="me-2"> SP
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('img/dp.png', 'Hindi')">
+                                <img src="img/dp.png" alt="HN" width="20" class="me-2"> IN
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
+
     <script src="js/navbar.js"></script>
 
     <section class="showcase">
@@ -221,7 +245,7 @@
         <h1 class="heading345">Our Brands</h1>
         <div class="image-container345">
             <img src="img/brand_logo/PSK.png" alt="Image 1" style="left: 30%;">
-            <img src="img/certificates/fssai.png" alt="Image 2">
+            <img src="img/brand_logo/GSK.png" alt="Image 2">
         </div>
     </div>
     <!-- certification Start -->
@@ -286,41 +310,55 @@
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4 mb-5">
                         <h6 class="text-body text-uppercase mb-2">Testimonial</h6>
-                        <h1 class="display-6 mb-0">What Our Happy Clients Say!</h1>
+                        <h1 class="display-6 mb-0">See What Our Clients Say About Us!</h1>
                     </div>
-                    <p class="mb-4">Diam dolor diam ipsum sit. <b>Aliqu diam amet diam </b> et eos. Clita erat ipsum et <b>lorem et sit, </b> sed stet lorem sit clita duo justo <b>magna dolore </b> erat amet</p>
+                    <p class="mb-4">Our client's satisfaction drives us. Hear from those who trust us for quality peanuts, exceptional service, and a commitment to sustainable practices that support their business growth.</p>
                     <div class="row g-4 ik">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fa fa-users fa-2x text-primary flex-shrink-0"></i>
-                                <h1 class="ms-3 mb-0">123+</h1>
+                                <h1 class="ms-3 mb-0">100+</h1>
                             </div>
-                            <h5 class="mb-0">Happy Clients</h5>
+                            <h5 class="mb-0">Formers</h5>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0"></i>
-                                <h1 class="ms-3 mb-0">123+</h1>
+                                <h1 class="ms-3 mb-0">50+</h1>
                             </div>
-                            <h5 class="mb-0">Projects Done</h5>
+                            <h5 class="mb-0">Customers</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item">
-                            <img class="img-fluid mb-4" src="img/testimonial-1.jpg" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <img class="img-fluid mb-4" src="img/feedbacks/test-1.jpg" alt="">
+                            <p class="fs-5">Working with SHATAPATHRAM EXIM has been a rewarding experience. They’re organized, reliable, and committed to quality. Payments are prompt, and communication is always clear. A trusted partner!</p>
                             <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                            <h5>Farmer</h5>
+                            <span>India</span>
                         </div>
                         <div class="testimonial-item">
-                            <img class="img-fluid mb-4" src="img/testimonial-2.jpg" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <img class="img-fluid mb-4" src="img/feedbacks/test-2.jpg" alt="">
+                            <p class="fs-5">"Our partnership with SHATAPATHRAM has been outstanding. They prioritize quality and fairness, ensuring smooth transactions and reliable payments. Looking forward to many more seasons together!"</p>
                             <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                            <h5>Farmer</h5>
+                            <span>India</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="img/feedbacks/test-3.jpg" alt="">
+                            <p class="fs-5">"As a supplier, I appreciate SHATAPATHRAM's professionalism and commitment. They make the process smooth with timely payments and clear expectations. A dependable partner!"</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Farmer</h5>
+                            <span>India</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="img/feedbacks/test-4.jpg" alt="">
+                            <p class="fs-5">""It’s a pleasure supplying peanuts to SHATAPATHRAM. They’re professional, transparent, and value long-term relationships. Payment is always on time, and communication is seamless."</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Farmer</h5>
+                            <span>India</span>
                         </div>
                     </div>
                 </div>
@@ -344,10 +382,10 @@
                 <div class="col-lg-5 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="border-start border-5 border-primary ps-4 mb-5">
                         <h6 class="text-white text-uppercase mb-2">Environmental Care</h6>
-                        <h1 class="display-6 text-white mb-0">A Company Involved In Service And Maintenance</h1>
+                        <h1 class="display-6 text-white mb-0">Growing Peanuts, Protecting Our Planet Together</h1>
                     </div>
-                    <p class="text-white mb-0">Tempor erat elitr <b>rebum at clita. </b> Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, <b>sed stet lorem </b> sit clita duo <b>justo </b> magna dolore erat amet</p>
-                    <a class="env-btn" href="">Learn More</a>
+                    <p class="text-white mb-0">As a peanut exporter, we prioritize sustainable farming practices, minimize waste, and promote eco-friendly methods to ensure that our products support both your health and the environment.</p>
+                    <a class="env-btn" href="feature.html">Learn More</a>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeIn" data-wow-delay="0.5s">
 
@@ -361,9 +399,9 @@
     <!-- Appointment End -->
     <div class="background-image-sui">
         <div class="text-container">
-            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo.</h5>
-            <button class="cta-button">Contact Us</button>
+            <h3> <span class="highlight">"</span>Bringing the World’s Finest Peanuts to You!<span class="highlight">"</span></h3>
+            <h5>"Quality peanuts, trusted sourcing, delivered fresh worldwide."</h5><br>
+            <a class="cta-button" href="contact.html">Contact Us</a>
         </div>
     </div>
 
