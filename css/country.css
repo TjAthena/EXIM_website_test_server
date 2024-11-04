@@ -12,7 +12,10 @@
     align-items: center;
     width: 100%;
     padding: 20px 0 40px 0;
-    background: url(''); /* Adjust the width as needed */
+   /* background: url(../img/tnt.png) center center no-repeat ;
+    background-size: 1550px; /* Adjust the width as needed 
+    background-blend-mode: color-burn;
+    background-position-y: top; */
 }
 
 .itemh {

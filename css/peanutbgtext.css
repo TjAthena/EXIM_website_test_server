@@ -94,7 +94,7 @@
     display: inline-block; 
     bottom: 60px;/* Allows padding and margin to apply correctly */
     padding: 10px 20px; /* Add padding for a button-like appearance */
-    background-color: red; /* Fill color of the button */
+    background-color: darkred; /* Fill color of the button */
     color: white; /* Text color */
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove underline from the link */
@@ -107,7 +107,7 @@
 
 /* Optional: Add hover effect */
 .products-tj:hover {
-    background-color: darkred; /* Darker shade on hover */
+    background-color: rgb(42, 2, 2); /* Darker shade on hover */
     color: #fff; /* Keep text color white on hover */
 }
 
