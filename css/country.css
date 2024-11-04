@@ -11,7 +11,8 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 20px 0 40px 0; /* Adjust the width as needed */
+    padding: 20px 0 40px 0;
+    background: url(''); /* Adjust the width as needed */
 }
 
 .itemh {
@@ -33,9 +34,8 @@
 }
 
 .itemh img {
-    width: auto;
+    width: 400px;
     height: auto;
-    padding-left: 50px;
     object-fit: contain; /* Ensures the image fits well within the container */
 }
 
