@@ -1,24 +1,25 @@
+let slideIndex = 0;
 const slides = document.querySelector('.slides');
 const dots = document.querySelectorAll('.dot');
-let currentIndex = 0;
 
-dots.forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-        changeSlide(index);
-    });
-});
-
-function changeSlide(index) {
-    // Update current index
-    currentIndex = index;
-
-    // Calculate the offset to slide
-    const offset = -currentIndex * 100;
-
-    // Apply the transform to slides container
-    slides.style.transform = `translateX(${offset}%)`;
-
+function showSlides() {
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].classList.remove('active');
+    }
+    
     // Update active dot
-    dots.forEach(dot => dot.classList.remove('active'));
-    dots[currentIndex].classList.add('active');
+    dots[slideIndex].classList.add('active');
+    
+    // Move to the correct slide
+    slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+    
+    // Go to the next slide, looping back to start if needed
+    slideIndex = (slideIndex + 1) % dots.length;
 }
+
+// Automatically switch slides every 1.5 seconds
+setInterval(showSlides, 1500);
+
+// Initialize the first slide display
+showSlides();
+
