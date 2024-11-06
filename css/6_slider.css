@@ -130,7 +130,7 @@ p {
 /* Center Content */
 .center-content-tj-200 {
     width: 50%;
-    height: 40vh;
+    height: auto;
     left: 8%;
     text-align: center;
     position: relative; /* Make position relative for animations */
@@ -160,7 +160,7 @@ p {
 /* Right Side Image Section */
 .image-section-tj-200 {
     position: relative;
-    width: 30%;
+    width: auto;
     bottom: 50px;
     display: flex;
     justify-content: center;
@@ -169,7 +169,8 @@ p {
 
 .detailsimg-tj-200 {
     display: none; /* Hide all images initially */
-    max-width: 100%;
+    width: 400px;
+    left: 10%;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 0; /* Start invisible */
