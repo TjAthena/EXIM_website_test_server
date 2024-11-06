@@ -34,3 +34,32 @@ document.querySelectorAll('.item-tj-200').forEach(item => {
         activeImg.classList.add('active'); // Make it visible
     });
 });
+
+
+
+
+let currentSlide = 1;
+const totalSlides = 4;
+
+function showSlide(slideIndex) {
+  // Reset all slides
+  document.querySelectorAll('.pdt-slide').forEach(slide => slide.classList.remove('active'));
+  document.querySelectorAll('.pdt-display-image').forEach(image => image.classList.remove('active'));
+
+  // Show the selected slide
+  document.getElementById(`pdt-slide${slideIndex}`).classList.add('active');
+  document.getElementById(`pdt-display${slideIndex}`).classList.add('active');
+}
+
+function nextSlide() {
+  currentSlide = currentSlide < totalSlides ? currentSlide + 1 : 1;
+  showSlide(currentSlide);
+}
+
+function prevSlide() {
+  currentSlide = currentSlide > 1 ? currentSlide - 1 : totalSlides;
+  showSlide(currentSlide);
+}
+
+// Initialize the first slide
+showSlide(currentSlide);
