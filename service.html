@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="css/certificate.css">
     <link rel="stylesheet" href="css/6_slider.css">
     <link rel="stylesheet" href="css/contact_footer.css">
+    <link rel="stylesheet" href="css/bird_feed.css">
 </head>
 
 <body>
@@ -58,17 +59,43 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="about.html" class="nav-item nav-link">Rice</a>
                 <a href="index.html" class="nav-item nav-link logo-nav">
-                    <img src="img/logo (2).png" class="toplg" alt="">
+                    <img src="img/Logo1.png" class="toplg" alt="">
                 </a>
-                <a href="service.html" class="nav-item nav-link">Products</a>
+                <a href="service.html" class="nav-item nav-link"><img src="img/Nav-peanut.png" alt="" width="40" class="me-2">Peanut</a>
                 <a href="feature.html" class="nav-item nav-link">Sustainability</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <!--language doggle-->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img id="activeLangFlag" src="img/en.png" alt="English" width="20" class="me-2"> English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li>
+                            <a class="dropdown-item" href="index.html" onclick="setLanguage('img/en.png', 'English')">
+                                <img src="img/en.png" alt="EN" width="20" class="me-2"> EN
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('img/sp.png', 'Spanish')">
+                                <img src="img/sp.png" alt="SP" width="20" class="me-2"> SP
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('img/dp.png', 'Hindi')">
+                                <img src="img/dp.png" alt="HN" width="20" class="me-2"> IN
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
+
+    <script src="js/navbar.js"></script>
     <!-- Navbar End -->
 
 
@@ -112,9 +139,63 @@
           </div>
     </div>
 
+    <!--Bird Feed-->
+    <h1><span class="highlight">Bird Feed</span> Peanut</h1>
+
+    <p class="main-paragraph-pntgn">Peanut Supply Chain: From <span class="highlight1">Farm</span> to <span class="highlight1">Feeder</span></p>
+
+  <!-- Container for the layout with pentagon image and points around it -->
+ <div class="pentagon-container-pntgn">
+    <!-- Top point -->
+    <div class="point-pntgn top-pntgn">
+      <p><span class="highlight">Cultivation & Harvesting</span></p>
+      <p>In India, peanuts for bird feed are mainly cultivated in Gujarat, Rajasthan, Andhra Pradesh, and Tamil Nadu. Key varieties include Runner/Bold and Spanish/Java, influenced by weather, soil, and farming techniques.</p>
+    </div>
+
+    <!-- Top left point -->
+    <div class="point-pntgn top-left-pntgn">
+      <p><span class="highlight">Initial Sorting & Cleaning</span></p>
+      <p>Peanuts are sorted to eliminate dirt and contaminants using specialized machinery. Only high-quality peanuts, sized 60/70, 80/100, or split, are selected to avoid health risks for birds like choking hazards.</p>
+    </div>
+
+    <!-- Bottom left point -->
+    <div class="point-pntgn bottom-left-pntgn">
+      <p><span class="highlight">Processing</span></p>
+      <p>Peanuts are blanched, roasted, or crushed to enhance flavor, nutritional value, and shelf life. Roasting and crushing make them easier to consume and digest for birds, especially smaller species.</p>
+    </div>
+
+    <!-- Bottom right point -->
+    <div class="point-pntgn bottom-right-pntgn">
+      <p><span class="highlight">Quality Control & Grading</span></p>
+      <p>Peanuts undergo stringent aflatoxin testing to meet safety standards. Quality control ensures peanuts are free of harmful contaminants, ensuring a safe and healthy product for bird feed.</p>
+    </div>
+
+    <!-- Top right point -->
+    <div class="point-pntgn top-right-pntgn">
+      <p><span class="highlight">Packaging & Distribution</span></p>
+      <p>Peanuts are packaged in various forms, including bulk sacks (1-1.25 tons) and 25 kg vacuum packs. Distribution channels ensure the product reaches retailers, catering to garden and wild bird keepers.</p>
+    </div>
+
+    <!-- Pentagon-shaped image in the center -->
+    <div class="image-container-pntgn">
+      <img src="img/bird_feed.png" alt="Pentagon Image">
+    </div>
+ </div>
+<br>
+<div class="container-products">
+    <div class="text-section-products slide-right-products">
+      <h1><span class="highlight">Price Comparison </span><br> Bird Feed vs. Human-grade Peanuts</h1>
+      <p>
+        Bird feed peanuts are generally more affordable than human-grade peanuts, yet prices are linked. A drop in human-grade prices often lowers bird feed costs due to factors like supply and yield. Human-grade peanuts have stricter aflatoxin limits (Aflatoxin B1: 2 ppb, Total: 4 ppb), while bird feed peanuts must meet a less stringent EU total aflatoxin standard of under 20 ppb, stressing the need for safety testing.
+      </p>
+    </div>
+    <div class="video-section-products slide-left-products">
+        <img src="img/BIrdfeed.png" alt="">
+      </div>
+</div>
+
     <div class="container-3info">
         <h1>Benifits of Peanuts</h1>
-        <p></p>
         
         <div class="images-container-3info">
             <div class="image-item-3info">

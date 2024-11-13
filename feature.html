@@ -59,17 +59,43 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="about.html" class="nav-item nav-link">Rice</a>
                 <a href="index.html" class="nav-item nav-link logo-nav">
-                    <img src="img/logo (2).png" class="toplg" alt="">
+                    <img src="img/Logo1.png" class="toplg" alt="">
                 </a>
-                <a href="service.html" class="nav-item nav-link">Products</a>
+                <a href="service.html" class="nav-item nav-link"><img src="img/Nav-peanut.png" alt="" width="40" class="me-2">Peanut</a>
                 <a href="feature.html" class="nav-item nav-link">Sustainability</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <!--language doggle-->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img id="activeLangFlag" src="img/en.png" alt="English" width="20" class="me-2"> English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li>
+                            <a class="dropdown-item" href="index.html" onclick="setLanguage('img/en.png', 'English')">
+                                <img src="img/en.png" alt="EN" width="20" class="me-2"> EN
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('img/sp.png', 'Spanish')">
+                                <img src="img/sp.png" alt="SP" width="20" class="me-2"> SP
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('img/dp.png', 'Hindi')">
+                                <img src="img/dp.png" alt="HN" width="20" class="me-2"> IN
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
+
+    <script src="js/navbar.js"></script>
     <!-- Navbar End -->
 
 
@@ -206,6 +232,18 @@
     <script src="script.js"></script>
 
     <h1>Our Quality  <span class="highlight">Management</span></h1>
+
+    <div class="container-products">
+        <div class="text-section-products slide-right-products">
+          <h1><span class="highlight1">Quality.</span>Consistency.<span class="highlight1">Commitment.</span></h1>
+          <p style="text-align: left;">
+            Guided by Six Sigma and <b>Kaizen principles</b>, we ensure continuous improvement and top-tier quality control in every aspect of our peanut export operations. Our quality standards set the industry benchmark, maintaining uncompromising excellence for our <span class="highlight1">customers, partner farmers, vendors, and employees</span>. Quality is the unifying commitment across all roles in our company.</p>
+        </div>
+        <div class="video-section-products slide-left-products">
+            <img src="img/QM1.png" alt="">
+          </div>
+    </div>
+
 
     <h1><span class="highlight">Sustainability</span> points</h1>
 
