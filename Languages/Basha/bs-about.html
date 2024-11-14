@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EXIM - About Website </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/add_ons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/other_source.css">
+    <link rel="stylesheet" href="../../css/country.css">
+    <link rel="stylesheet" href="../../css/videoand4pic.css">
+    <link rel="stylesheet" href="../../css/peanutbgtext.css">
+    <link rel="stylesheet" href="../../css/certificate.css">
+    <link rel="stylesheet" href="../../css/6_slider.css">
+    <link rel="stylesheet" href="../../css/contact_footer.css">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Topbar Start -->
+    <!-- Topbar End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0 centered-navbar">
+        <div class="navbar-brand">
+            <img src="../../img/logo (2).png" alt="">
+        </div>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-3 py-lg-0">
+                <a href="bs-index.html" class="nav-item nav-link">Rumah</a>
+                <a href="bs-about.html" class="nav-item nav-link">Tentang Kami</a>
+                <a href="bs-about.html" class="nav-item nav-link">Riz</a>
+                <a href="bs-index.html" class="nav-item nav-link logo-nav">
+                    <img src="../../img/Logo1.png" class="toplg" alt="">
+                </a>
+                <a href="bs-service.html" class="nav-item nav-link"><img src="../../img/Nav-peanut.png" alt="" width="40" class="me-2">Arachide</a>
+                <a href="bs-feature.html" class="nav-item nav-link">Keberlanjutan</a>
+                <a href="bs-contact.html" class="nav-item nav-link">Hubungi Kami</a>
+                <!--language doggle-->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img id="activeLangFlag" src="../../img/Ind.png" alt="English" width="20" class="me-2"> Ind
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li>
+                            <a class="dropdown-item" href="../../index.html" onclick="setLanguage('../../img/en.png', 'En')">
+                                <img src="../../img/en.png" alt="EN" width="20" class="me-2"> English
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="../../Languages/French/fr-index.html" onclick="setLanguage('../../img/fr.png', 'Fr')">
+                                <img src="../../img/fr.png" alt="FR" width="20" class="me-2"> French
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="../Basha/bs-index.html" onclick="setLanguage('../../img/Ind.png', 'Ind')">
+                                <img src="../../img/Ind.png" alt="BZA" width="20" class="me-2"> bahasa
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('../../img/grmn.png', 'de')">
+                                <img src="../../img/grmn.png" alt="DE" width="20" class="me-2"> German
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('../../img/Cmn.png', 'Cmn')">
+                                <img src="../../img/Cmn.png" alt="Mn" width="20" class="me-2"> mandarin
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="setLanguage('../../img/jpn.png', 'Jpn')">
+                                <img src="../../img/jpn.png" alt="JA" width="20" class="me-2"> Japanese
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="../../js/navbar.js"></script>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <h1 class="display-4 text-white animated slideInDown mb-4">Tentang Kami</h1>
+    
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">SHATAPATHRAM</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Tentang</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Page Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="border-start border-5 border-primary ps-4 mb-5">
+                            <h6 class="text-body text-uppercase mb-2">Tentang Kami</h6>
+                            <h1 class="display-6 mb-0">Selamat datang di <span class="highlight">SHATAPATHRAM</span> EXIM OPC PVT LTD</h1>
+                        </div>
+                        
+                        
+                        <p>Kami telah berada di sektor kacang tanah global selama lebih dari <b>4,5 tahun.</b> Dan kami memproses lebih dari <b>150 ton kacang tanah per tahun.</b> Dari pertanian hingga transformasi di beberapa situs dan produk bernilai tambah, kami memahami pasar.</p>
+                        <p class="mb-4">Sebagai visioner kacang tanah, kami bertekad untuk membangun industri yang lebih baik untuk petani, pembeli, distributor, pengolah, produsen, dan konsumen. 
+
+                        Ini menjelaskan mengapa kami secara ketat mengejar keunggulan dalam segala yang kami lakukan, dengan bekerja untuk mengubah industri kacang tanah menjadi lebih baik.</p>
+
+
+                        <div class="border-top mt-4 pt-4">
+                            <div class="row g-4">
+                                <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.1s">
+                                    <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                    <h6 class="mb-0">Kepemimpinan</h6>
+
+                                </div>
+                                <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.3s">
+                                    <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                    <h6 class="mb-0">Efektivitas</h6>
+
+                                </div>
+                                <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.5s">
+                                    <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                    <h6 class="mb-0">Kualitas</h6>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100" src="../../img/location.png" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!--mission & vision-->
+    <div class="container-3info">
+        <img src="../../img/lotus.png" alt="Logo" class="logo-3info">
+        <h1>SHATAPATHRAM</h1>
+        <p>Mata Uang Utama</p>
+
+
+        
+        <div class="images-container-3info">
+            <div class="image-item-3info">
+                <img src="../../img/mission.png" alt="Image 1">
+                <h2>Misi Kami</h2>
+                <p>Deskripsi gambar satu dalam enam kata.</p>
+            </div>
+            
+            <div class="image-item-3info">
+                <img src="../../img/vision.png" alt="Image 2">
+                <h2>Visi Kami</h2>
+                <p>Deskripsi gambar dua dalam enam kata.</p>
+            </div>
+            
+            <div class="image-item-3info">
+                <img src="../../img/value.png" alt="Image 3">
+                <h2>Nilai-Nilai Kami</h2>
+                <p>Deskripsi gambar tiga dalam enam kata.</p>
+            </div>
+                       
+        </div>
+    </div>
+
+    
+
+    <div class="container345" style="top: 0;">
+        <h1 class="heading345">Merek Kami</h1>
+
+
+        <div class="image-container345">
+            <img src="../../img/brand_logo/PSK3.png" alt="Image 1" style="left: 30%;">
+            <img src="../../img/brand_logo/GSK.png" alt="Image 2">
+        </div>
+    </div>
+    <!--
+    <script>
+        var copy = document.querySelector(".logo-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+      </script>
+-->
+
+    <div class="container123" style="top: 0; left: -1%;">
+        <h1 class="heading123">Sertifikasi dan Standar</h1>
+
+
+        <div class="image-container123">
+            <img src="../../img/certificates/APEDA-Logo.png" alt="Image 1">
+            <img src="../../img/certificates/fssai.png" alt="Image 2">
+            <img src="../../img/certificates/halal.png" alt="Image 3">
+            <img src="../../img/certificates/spiceborad.jpg" alt="Image 4">
+            <img src="../../img/certificates/CEPA.png" alt="Image 4">
+        </div>
+    </div>
+    <!-- Team Start -->
+    
+    <!-- Team End -->
+    <div class="container-xxl py-5" >
+        <div class="container">
+            <div class="row g-5" style="padding-top: 40px;">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="border-start border-5 border-primary ps-4 mb-5">
+                        <h6 class="text-body text-uppercase mb-2">Testimoni</h6>
+                        <h1 class="display-6 mb-0">Temukan apa yang pelanggan kami katakan tentang kami!</h1>
+                    </div>
+                    
+                    
+                    <p class="mb-4">Kepuasan pelanggan kami memotivasi kami. Dengarkan mereka yang mempercayai kami untuk kacang berkualitas, layanan luar biasa, dan komitmen terhadap praktik berkelanjutan yang mendukung pertumbuhan bisnis mereka.</p>
+
+
+                    <div class="row g-4 ik">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="fa fa-users fa-2x text-primary flex-shrink-0"></i>
+                                <h1 class="ms-3 mb-0">100+</h1>
+                            </div>
+                            <h5 class="mb-0">Petani</h5>
+
+
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="fa fa-check fa-2x text-primary flex-shrink-0"></i>
+                                <h1 class="ms-3 mb-0">200+</h1>
+                            </div>
+                            <h5 class="mb-0">Pelanggan</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="../../img/feedbacks/test-1.jpg" alt="">
+                            <p class="fs-5">Working with SHATAPATHRAM EXIM has been a rewarding experience. They’re organized, reliable, and committed to quality. Payments are prompt, and communication is always clear. A trusted partner!</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Haoyu - Farmer</h5>
+                            <span>China.</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="../../img/feedbacks/test-2.jpg" alt="">
+                            <p class="fs-5">"Our partnership with SHATAPATHRAM has been outstanding. They prioritize quality and fairness, ensuring smooth transactions and reliable payments. Looking forward to many more seasons together!"</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Tomás - Farmer</h5>
+                            <span>Argentina.</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="../../img/feedbacks/test-3.jpg" alt="">
+                            <p class="fs-5">"As a supplier, I appreciate SHATAPATHRAM's professionalism and commitment. They make the process smooth with timely payments and clear expectations. A dependable partner!"</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Gopinath - Farmer</h5>
+                            <span>India</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="../../img/feedbacks/brazil farmer.jpg" alt="">
+                            <p class="fs-5">"It’s a pleasure supplying peanuts to SHATAPATHRAM. They’re professional, transparent, and value long-term relationships. Payment is always on time, and communication is seamless."</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Gabriela - Farmer</h5>
+                            <span>Brazil.</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="../../img/feedbacks/African farmer.jpg" alt="">
+                            <p class="fs-5">"Partnering with shatapathram has been a great experience. They’re fair, reliable, and consistently prioritize quality. Payments are prompt, and communication is always clear."</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Abrafo - Farmer</h5>
+                            <span>Africa.</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-4" src="../../img/feedbacks/USA Farmer.jpg" alt="">
+                            <p class="fs-5">"I appreciate SHATAPATHRAM's commitment to farmers. They offer fair prices, transparent processes, and foster a true partnership. It’s a pleasure working with such a professional team."</p>
+                            <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
+                            <h5>Henry - Farmer</h5>
+                            <span>USA.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-image-sui">
+        <div class="text-container">
+            <h3> <span class="highlight">"</span>Membawa Kacang Terbaik di Dunia untuk Anda!<span class="highlight">"</span></h3>
+            <h5>"Kacang berkualitas, sumber yang terpercaya, dikirim segar ke seluruh dunia."</h5><br>
+            <a class="cta-button" href="fr-contact.html">Hubungi Kami</a>
+        </div>
+        
+        
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="text-white mb-4" style="font-size: 30px;"></i>SHATAPATHRAM</h1>
+                    <p>SHATAPATHRAM EXIM OPC PVT LTD bertujuan untuk menjadi pemimpin dalam impor-ekspor dengan merespons kebutuhan pelanggan dengan cepat dan mematuhi standar industri.</p>
+                
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Flat No.3 , "Sastha", Building No.58 , Old No.48 , 3rd Main Road , Kusturibai Nagar , Adyar , Chennai - 600020, Tamil Nadu, India</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>4797-0645</p>
+                    <p><i class="fa fa-envelope me-3"></i>sales@shatapathram.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Liens rapides</h4>
+                    <a class="btn btn-link" href="bs-about.html">À propos de nous</a>
+                    <a class="btn btn-link" href="bs-service.html">Produits</a>
+                    <a class="btn btn-link" href="bs-feature.html">Durabilité</a>
+                    <a class="btn btn-link" href="bs-contact.html">Contactez-nous</a>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">QR Code</h4>
+                    <div class="qr-code-ft">
+                        <img src="path/to/qr-code.png" alt="QR Code" width="300" height="300">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">Tj_pradeep</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="fr-#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../lib/wow/wow.min.js"></script>
+    <script src="../../lib/easing/easing.min.js"></script>
+    <script src="../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../../js/main.js"></script>
+    <script src="../../js/animation.js"></script>
+</body>
+
+</html>
