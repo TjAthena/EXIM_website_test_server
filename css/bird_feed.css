@@ -81,3 +81,77 @@
     left: 55%;
     transform: translate(50%, -50%);
   }
+
+
+/* Media query for mobile devices with max-width 600px */
+@media (max-width: 600px) {
+  
+  /* Main paragraph */
+  .main-paragraph-pntgn {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Pentagon container */
+  .pentagon-container-pntgn {
+    left: 0;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+  }
+
+  /* Pentagon image styling */
+  .image-container-pntgn {
+    width: 250px;
+    top: 100px;
+  }
+
+  .image-container-pntgn img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Positioning for each point around the pentagon */
+  .point-pntgn {
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  /* Top point */
+  .point-pntgn.top-pntgn {
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Top left point */
+  .point-pntgn.top-left-pntgn {
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Bottom left point */
+  .point-pntgn.bottom-left-pntgn {
+    bottom: 5%;
+    left: 20%;
+    transform: translate(-50%, 50%);
+  }
+
+  /* Bottom right point */
+  .point-pntgn.bottom-right-pntgn {
+    bottom: 5%;
+    right: 20%;
+    transform: translate(50%, 50%);
+  }
+
+  /* Top right point */
+  .point-pntgn.top-right-pntgn {
+    top: 35%;
+    right: 15%;
+    transform: translate(50%, -50%);
+  }
+}
