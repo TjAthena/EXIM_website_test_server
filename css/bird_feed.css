@@ -85,73 +85,62 @@
 
 /* Media query for mobile devices with max-width 600px */
 @media (max-width: 600px) {
-  
+
   /* Main paragraph */
   .main-paragraph-pntgn {
     font-size: 16px;
     margin-bottom: 15px;
     text-align: center;
   }
-  
+
   /* Pentagon container */
   .pentagon-container-pntgn {
+    position: relative;
+    width: 100%;
     left: 0;
-    width: 100%;
-    height: 400px;
+    height: auto; /* Adjust height to fit the stacked layout */
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Add spacing between each point */
   }
 
-  /* Pentagon image styling */
+  /* Hide the pentagon image */
   .image-container-pntgn {
-    width: 250px;
-    top: 100px;
+    
   }
 
-  .image-container-pntgn img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
-  /* Positioning for each point around the pentagon */
+  /* Styling for each point */
   .point-pntgn {
-    width: 250px;
-    padding: 8px;
+    width: 90%; /* Full width with some padding */
+    max-width: 350px; /* Optional: limit the max width */
+    padding: 16px;
     font-size: 14px;
-  }
-  
-  /* Top point */
-  .point-pntgn.top-pntgn {
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Optional: background color */
+    border-radius: 8px; /* Optional: rounded corners */
+    text-align: center;
   }
 
-  /* Top left point */
-  .point-pntgn.top-left-pntgn {
-    top: 35%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-  }
-
-  /* Bottom left point */
-  .point-pntgn.bottom-left-pntgn {
-    bottom: 5%;
-    left: 20%;
-    transform: translate(-50%, 50%);
-  }
-
-  /* Bottom right point */
-  .point-pntgn.bottom-right-pntgn {
-    bottom: 5%;
-    right: 20%;
-    transform: translate(50%, 50%);
-  }
-
-  /* Top right point */
+  /* Remove specific positioning for individual points */
+  .point-pntgn.top-pntgn,
   .point-pntgn.top-right-pntgn {
-    top: 35%;
-    right: 15%;
-    transform: translate(50%, -50%);
+    position: static; /* Default flow */
+    transform: none; /* Remove transformations */
+  }
+  .point-pntgn.top-left-pntgn,
+  .point-pntgn.bottom-right-pntgn {
+    position: static; /* Default flow */
+    transform: none;
+    background-color: #f9f9f9ac;
+
+  }
+  .point-pntgn.bottom-left-pntgn{
+    position: static; /* Default flow */
+    transform: none;
+    background-color: #f9f9f95c;
+
   }
 }
+
