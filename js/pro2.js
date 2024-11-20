@@ -134,8 +134,54 @@ const riceData = {
         description: "Le riz noir, également connu sous le nom de riz interdit, est un grain riche en nutriments avec une saveur légèrement sucrée et de noisette, et une couleur foncée.",
         image: "../../img/black.jpg"
     },
-    
-    
+    de_basmati: {
+        description: "Basmati-Reis ist ein langkörniger und aromatischer Reis, der hauptsächlich in Indien und Pakistan angebaut wird. Er ist bekannt für seine weiche Textur und seinen nussigen Geschmack.",
+        image: "../../img/basmathi.jpg"
+    },
+    de_jasmine: {
+        description: "Jasminreis ist ein duftender, langkörniger Reis mit einer leicht klebrigen Textur, der vor allem in Thailand angebaut wird. Ideal für gebratene Reisgerichte und Currys.",
+        image: "../../img/jas.jpg"
+    },
+    de_arborio: {
+        description: "Arborio-Reis ist ein kurzer Reis aus Italien, der für seine cremige Textur bekannt ist. Er eignet sich hervorragend für Risotto und Pudding.",
+        image: "../../img/boro.jpg"
+    },
+    de_wild: {
+        description: "Wildreis ist ein Getreide, das aus Wassergras geerntet wird. Er hat eine zähe Textur und einen erdigen Geschmack und eignet sich perfekt für Salate und Suppen.",
+        image: "../../img/Wild.jpg"
+    },
+    de_brown: {
+        description: "Brauner Reis ist Vollkornreis mit einer ungenießbaren äußeren Schale, die mehr Nährstoffe und Ballaststoffe enthält als weißer Reis.",
+        image: "../../img/brown.jpg"
+    },
+    de_black: {
+        description: "Schwarzer Reis, auch als verbotener Reis bekannt, ist ein nährstoffreiches Getreide mit einem leicht süßen und nussigen Geschmack und einer dunklen Farbe.",
+        image: "../../img/black.jpg"
+    },
+    ja_basmati: {
+        description: "バスマティ米は、インドとパキスタンでよく栽培される長粒で香り高い米です。柔らかな食感とナッツのような風味で知られています。",
+        image: "../../img/basmathi.jpg"
+    },
+    ja_jasmine: {
+        description: "ジャスミン米は、タイで主に栽培される香り高い長粒米で、やや粘り気があります。炒め物やカレーに最適です。",
+        image: "../../img/jas.jpg"
+    },
+    ja_arborio: {
+        description: "アルボリオ米は、クリーミーな食感で知られるイタリア産の短粒米で、リゾットやプリンに最適です。",
+        image: "../../img/boro.jpg"
+    },
+    ja_wild: {
+        description: "ワイルドライスは、水草から収穫される穀物で、弾力のある食感と土のような風味があり、サラダやスープに最適です。",
+        image: "../../img/Wild.jpg"
+    },
+    ja_brown: {
+        description: "ブラウンライスは、外皮が食べられない全粒米で、白米よりも多くの栄養素と繊維を保持しています。",
+        image: "../../img/brown.jpg"
+    },
+    ja_black: {
+        description: "黒米、または禁断の米は、甘くナッツのような風味があり、栄養価が高く、暗い色の穀物です。",
+        image: "../../img/black.jpg"
+    }  
     
 };
 
