@@ -290,7 +290,7 @@ ul {
   padding: 0;
 }
 
-li {
+/*li {
   background: #f1f1f1;
   margin: 0.5rem 0;
   padding: 0.75rem;
@@ -298,9 +298,9 @@ li {
   transition: background 0.3s ease;
   cursor: pointer;
 }
-
+*/
 li:hover {
-  background: #e7f5e7;
+  background: #d1292937;
 }
 
 /* Details Box */
