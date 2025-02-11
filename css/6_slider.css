@@ -408,7 +408,7 @@ p {
   }
   
   .rice-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-25px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   }
   
@@ -416,6 +416,7 @@ p {
     width: 100%;
     height: 250px ;
     border-radius: 5px;
+    object-fit :cover;
   }
   
   .rice-name {
@@ -425,7 +426,7 @@ p {
     color: #C8102E;
   }
   .cta-button-frc {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px 30px;
     background-color: #C8102E;
     color: #fff;
