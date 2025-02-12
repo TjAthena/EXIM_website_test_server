@@ -473,10 +473,13 @@ p {
   }
   
   .rice-image-rcdt {
-    width: 300px;
+    width: 500px;
     height: auto;
     border-radius: 10px;
     border: 1px solid #ddd;
+    top: 0;
+    position: relative;
+    top: 0px;
   }
   
   .content-section-rcdt {
