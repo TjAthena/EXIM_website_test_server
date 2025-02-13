@@ -23,3 +23,8 @@ setInterval(showSlides, 1500);
 // Initialize the first slide display
 showSlides();
 
+
+
+
+
+
