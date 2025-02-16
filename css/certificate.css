@@ -240,3 +240,29 @@
 .main-container-rtvv .hidden-container-rtvv {
     display: none !important; /* Force hiding */
 }
+
+/*media css for mobile */
+@media (max-width: 768px) {
+    .container-rtvv {
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+    .buttons-container-rtvv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .button-type-rtvv {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+    
+    .info-container-rtvv {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
