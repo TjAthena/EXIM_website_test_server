@@ -31,7 +31,6 @@
     opacity: 1;
 }
 
-
 /*** Button ***/
 .btn {
     font-weight: 500;
@@ -84,8 +83,8 @@
 
 .centered-navbar .navbar-nav .nav-link {
     margin-left: 15px; /* Adds space between the nav items */
-    margin-right: 15px;
 }
+
 
 .centered-navbar .navbar-nav .dropdown-menu {
     left: 50%; /* Centers dropdown */
@@ -115,8 +114,12 @@
     font-weight: 500;
     text-transform: uppercase;
     outline: none;
-    float: left;
 }
+.navbar .navbar-nav .nav-link:hover {
+    color: #ffff;
+    text-shadow: 0 0 30px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary);
+}
+
 
 .navbar .navbar-nav .nav-link.active {
     color: var(--secondary); /* Primary color for active state */ /* Optionally, underline the active link */
