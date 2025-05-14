@@ -1,24 +1,32 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 /* Assuming you have the GT Super Display Light font imported or available */
 @font-face {
     font-family: 'gt_super_displaylight';
-    src: url('/fonts/GT-Super-Display-Light-Trial.otf') format('truetype'); /* Adjust to your actual file name */
-    font-weight: 300; /* Adjust the weight as needed */
-    font-style: normal; /* Adjust if your font has a style */
+    src: url('/fonts/GT-Super-Display-Light-Trial.otf') format('truetype');
+    /* Adjust to your actual file name */
+    font-weight: 300;
+    /* Adjust the weight as needed */
+    font-style: normal;
+    /* Adjust if your font has a style */
 }
+
 @font-face {
     font-family: 'STYLE';
-    src: url('../fonts/Childa\ italic.otf') format('truetype'); /* Adjust to your actual file name */
- /* Adjust the weight as needed */
-    font-style: normal; /* Adjust if your font has a style */
+    src: url('../fonts/Childa\ italic.otf') format('truetype');
+    /* Adjust to your actual file name */
+    /* Adjust the weight as needed */
+    font-style: normal;
+    /* Adjust if your font has a style */
 }
+
 @font-face {
     font-family: 'Playfast';
-    src: url('../fonts/PlaywriteGBS-VariableFont_wght.ttf') format('truetype'); /* Adjust to your actual file name */
- /* Adjust the weight as needed */
-    font-style: normal; /* Adjust if your font has a style */
+    src: url('../fonts/PlaywriteGBS-VariableFont_wght.ttf') format('truetype');
+    /* Adjust to your actual file name */
+    /* Adjust the weight as needed */
+    font-style: normal;
+    /* Adjust if your font has a style */
 }
 
 h1 {
@@ -36,13 +44,19 @@ p {
 }
 
 .highlight {
-    color:#C8102E ; /* Change this to your desired color */
-    font-weight: bold; /* Make the text bold */
-    font-style: italic; /* Make the text italic */
+    color: #C8102E;
+    /* Change this to your desired color */
+    font-weight: bold;
+    /* Make the text bold */
+    font-style: italic;
+    /* Make the text italic */
 }
+
 .highlight1 {
     font-family: 'Playfast';
-    color:#C8102E ; /* Change this to your desired color */ /* Make the text italic */
+    color: #C8102E;
+    /* Change this to your desired color */
+    /* Make the text italic */
 }
 
 .slider-container {
@@ -63,8 +77,10 @@ p {
 
 .slide {
     min-width: 100%;
-    transition: opacity 0.5s ease; /* optional for additional effect */
-    box-sizing: border-box; /* Include padding/border in width calculation */
+    transition: opacity 0.5s ease;
+    /* optional for additional effect */
+    box-sizing: border-box;
+    /* Include padding/border in width calculation */
 }
 
 .dots {
@@ -134,34 +150,42 @@ p {
     left: 8%;
     overflow: auto;
     text-align: center;
-    position: relative; /* Make position relative for animations */
-    overflow: hidden; /* Hide overflow for clean animation */
+    position: relative;
+    /* Make position relative for animations */
+    overflow: hidden;
+    /* Hide overflow for clean animation */
 }
 
 .details-tj-200 {
-    position: absolute; /* Position absolutely to enable animations */
+    position: absolute;
+    /* Position absolutely to enable animations */
     width: 400px;
     /* Full width */
-    opacity: 0; /* Start invisible */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth fade-in effect */
+    opacity: 0;
+    /* Start invisible */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* Smooth fade-in effect */
 }
 
 .details-tj-200.active {
-    opacity: 1; /* Fade in */
+    opacity: 1;
+    /* Fade in */
 }
 
 .details-tj-200.show {
-    transform: translateY(0); /* Move into view */
+    transform: translateY(0);
+    /* Move into view */
 }
 
 .details-tj-200.hide {
-    transform: translateY(-100%); /* Move up */
+    transform: translateY(-100%);
+    /* Move up */
 }
 
 /* Right Side Image Section */
 .image-section-tj-200 {
     position: relative;
-    width: auto;
+    width: 700px;
     bottom: 50px;
     display: flex;
     justify-content: center;
@@ -169,18 +193,23 @@ p {
 }
 
 .detailsimg-tj-200 {
-    display: none; /* Hide all images initially */
+    display: none;
+    /* Hide all images initially */
     width: 400px;
     left: 10%;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    opacity: 0; /* Start invisible */
-    transition: opacity 0.5s ease; /* Smooth fade-in effect */
+    opacity: 0;
+    /* Start invisible */
+    transition: opacity 0.5s ease;
+    /* Smooth fade-in effect */
 }
 
 .detailsimg-tj-200.active {
-    display: block; /* Show the active image */
-    opacity: 1; /* Fade in */
+    display: block;
+    /* Show the active image */
+    opacity: 1;
+    /* Fade in */
 }
 
 .container-cn {
@@ -202,12 +231,14 @@ p {
     height: 150px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.6), 0 0 10px rgba(255, 0, 0, 0.4); /* Glowing red shadow */
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.6), 0 0 10px rgba(255, 0, 0, 0.4);
+    /* Glowing red shadow */
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .section-cn:hover {
-    box-shadow: 0 4px 30px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.6); /* Enhanced glow on hover */
+    box-shadow: 0 4px 30px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.6);
+    /* Enhanced glow on hover */
 }
 
 .section-cn h2 {
@@ -225,29 +256,32 @@ p {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
-    body {
-         /* Add padding to the body */
+    h3,
+    p {
+        font-size: 25px;
+        /* Adjust font sizes for mobile */
+        text-align: -webkit-center;
     }
-    
-    h3, p {
-        font-size: 25px; /* Adjust font sizes for mobile */
-        text-align: center;
+    .center-content-tj-200 .details-tj-200 ul li {
+        font-size: 10px;
     }
-    h1{
+
+    h1 {
         font-size: 30px;
     }
-    p{
+
+    p {
         font-size: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-left: 10px;
     }
-    .c4{
+
+    .c4 {
         padding-top: 40px;
         left: 0;
         width: auto;
         font-size: 30px;
     }
-    
+
     .slider-container {
         width: 100%;
         left: 0;
@@ -255,27 +289,46 @@ p {
         margin-bottom: 20px;
         z-index: 10;
     }
-    .container-3info{
-        width: 100%; /* Full width for containers */
-        height: auto; /* Let height adjust */
+
+    .container-3info {
+        width: 100%;
+        /* Full width for containers */
+        height: auto;
+        /* Let height adjust */
         left: 0;
     }
-    .container-tj-200{
-        width: 100%; /* Full width for containers */
-        height: 40vh; /* Let height adjust */
+
+    .container-tj-200 {
+        width: 100%;
+        /* Full width for containers */
+        height: 100vh;
+        /* Let height adjust */
         left: 0;
         padding-right: 10px;
         padding-left: 10px;
+        display: grid;
+        /* Use grid for layout */
+        grid-template-columns: repeat(2, 1fr);
+        /* Create two equal-width columns */
+        gap: 10px;
+        /* Add space between the divs */
     }
 
     .side-menu-tj-200,
-    .center-content-tj-200,
     .image-section-tj-200 {
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
+        height: auto;
     }
+     .center-content-tj-200{
+        height: 400px;
 
+
+     }
+     .h-tj-200{
+        font-size: 20px;
+     }
     .side-menu-tj-200 h3 {
         font-size: 1em;
         padding: 8px 0;
@@ -285,7 +338,8 @@ p {
     .details-tj-200,
     .section-cn {
         width: 100%;
-        height: auto; /* Auto height for content sections */
+        height: auto;
+        /* Auto height for content sections */
     }
 
     .details-tj-200 {
@@ -303,17 +357,20 @@ p {
         font-size: 1em;
     }
 
-    .highlight, .highlight1 {
+    .highlight,
+    .highlight1 {
         font-size: 1em;
     }
 
-    .dots, .dot {
+    .dots,
+    .dot {
         margin-top: 15px;
     }
 
     .detailsimg-tj-200 {
         width: 100%;
     }
+
     .side-menu-tj-200 {
         width: 100%;
         text-align: left;
@@ -332,7 +389,7 @@ p {
     /* Center Content */
     .center-content-tj-200 {
         width: 100%;
-        height: auto;
+        height: 30vh;
     }
 
     .details-tj-200 {
@@ -344,7 +401,7 @@ p {
         opacity: 0;
         transition: opacity 0.5s ease, transform 0.5s ease;
     }
-    
+
 
     /* Right Side Image Section */
     .image-section-tj-200 {
@@ -360,6 +417,7 @@ p {
         opacity: 0;
         transition: opacity 0.5s ease;
     }
+
     .container-cn {
         width: auto;
         flex-direction: column;
@@ -373,7 +431,8 @@ p {
         width: 100%;
         margin-left: 0;
         padding: 15px;
-        box-shadow: 0 3px 15px rgba(255, 0, 0, 0.5), 0 0 8px rgba(255, 0, 0, 0.3); /* Slightly lighter glow */
+        box-shadow: 0 3px 15px rgba(255, 0, 0, 0.5), 0 0 8px rgba(255, 0, 0, 0.3);
+        /* Slightly lighter glow */
     }
 
     /* Text adjustments */
@@ -386,8 +445,8 @@ p {
     }
 }
 
-  
-  .rice-container {
+
+.rice-container {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -396,9 +455,9 @@ p {
     padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
-  }
-  
-  .rice-card {
+}
+
+.rice-card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -407,27 +466,28 @@ p {
     width: 350px;
     height: 400px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .rice-card:hover {
+}
+
+.rice-card:hover {
     transform: translateY(-25px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .rice-image {
+}
+
+.rice-image {
     width: 100%;
-    height: 250px ;
+    height: 250px;
     border-radius: 5px;
-    object-fit :cover;
-  }
-  
-  .rice-name {
+    object-fit: cover;
+}
+
+.rice-name {
     margin-top: 10px;
     font-size: 16px;
     font-weight: bold;
     color: #C8102E;
-  }
-  .cta-button-frc {
+}
+
+.cta-button-frc {
     margin-top: 30px;
     padding: 10px 30px;
     background-color: #C8102E;
@@ -435,15 +495,19 @@ p {
     font-size: 14px;
     font-weight: bold;
     border: none;
-    border-radius: 50px; /* Oval shape */
+    border-radius: 50px;
+    /* Oval shape */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .cta-button-frc:hover {
-    background-color: #fff; /* White background on hover */
-    color: #C8102E; /* Red text on hover */
-    border: 2px solid #C8102E; /* Red border on hover */
+    background-color: #fff;
+    /* White background on hover */
+    color: #C8102E;
+    /* Red text on hover */
+    border: 2px solid #C8102E;
+    /* Red border on hover */
     transform: scale(1.05);
 }
 
@@ -455,22 +519,22 @@ p {
         gap: 20px;
         padding: 20px;
     }
-    
+
     .rice-card {
         width: 100%;
         max-width: 300px;
         height: auto;
         padding: 15px;
     }
-    
+
     .rice-image {
         height: 200px;
     }
-    
+
     .rice-name {
         font-size: 14px;
     }
-    
+
     .cta-button-frc {
         width: 100%;
         padding: 12px;
@@ -482,11 +546,16 @@ p {
 /*rice details*/
 .parent-container-rcdt {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
-    background-color: #f5f5f5; /* Optional: background for visibility */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Full viewport height */
+    background-color: #f5f5f5;
+    /* Optional: background for visibility */
 }
+
 .details-container-rcdt {
     display: flex;
     gap: 20px;
@@ -495,16 +564,16 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 1300px;
-  }
-  
-  .image-section-rcdt {
+}
+
+.image-section-rcdt {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .rice-image-rcdt {
+}
+
+.rice-image-rcdt {
     width: 500px;
     height: 400px;
     border-radius: 10px;
@@ -513,49 +582,51 @@ p {
     position: relative;
     top: 0px;
     object-fit: cover;
-  }
-  
-  .content-section-rcdt {
+}
+
+.content-section-rcdt {
     flex: 2;
     padding: 20px;
-  }
-  
-  .rice-title-rcdt {
+}
+
+.rice-title-rcdt {
     font-size: 28px;
     font-weight: bold;
     color: #D1292A;
     margin-bottom: 10px;
-  }
-  
-  .description-rcdt {
+}
+
+.description-rcdt {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
     color: #555;
-  }
-  
-  .section-title-rcdt {
+}
+
+.section-title-rcdt {
     font-size: 20px;
     margin-bottom: 10px;
     color: #333;
-  }
-  
-  .rice-forms-rcdt li, .specifications-rcdt li {
+}
+
+.rice-forms-rcdt li,
+.specifications-rcdt li {
     list-style: none;
     margin-bottom: 5px;
     font-size: 16px;
     position: relative;
     padding-left: 20px;
-  }
-  
-  .rice-forms-rcdt li::before, .specifications-rcdt li::before {
+}
+
+.rice-forms-rcdt li::before,
+.specifications-rcdt li::before {
     content: '•';
     position: absolute;
     left: 0;
     color: #b72f2f;
-  }
-  
-  .inquiry-button-rcdt {
+}
+
+.inquiry-button-rcdt {
     background-color: #D1292A;
     color: #fff;
     border: none;
@@ -568,60 +639,61 @@ p {
     align-items: center;
     gap: 5px;
     transition: background-color 0.3s ease;
-  }
-  
-  .inquiry-button-rcdt:hover {
-    background-color: #D1292A;
-  }
-  
-  .send-icon-rcdt {
-    font-size: 18px;
-  }
+}
 
-  /* media css */
-  @media (max-width: 768px) {
+.inquiry-button-rcdt:hover {
+    background-color: #D1292A;
+}
+
+.send-icon-rcdt {
+    font-size: 18px;
+}
+
+/* media css */
+@media (max-width: 768px) {
     .parent-container-rcdt {
         height: auto;
         padding: 20px;
     }
-    
+
     .details-container-rcdt {
         flex-direction: column;
         width: 100%;
     }
-    
+
     .image-section-rcdt {
         justify-content: center;
     }
-    
+
     .rice-image-rcdt {
         width: 278px;
         height: 208px;
         max-width: 350px;
     }
-    
+
     .content-section-rcdt {
         padding: 0px;
     }
-    
+
     .rice-title-rcdt {
         font-size: 22px;
         text-align: center;
     }
-    
+
     .description-rcdt {
         font-size: 14px;
         text-align: justify;
     }
-    
+
     .section-title-rcdt {
         font-size: 18px;
     }
-    
-    .rice-forms-rcdt li, .specifications-rcdt li {
+
+    .rice-forms-rcdt li,
+    .specifications-rcdt li {
         font-size: 14px;
     }
-    
+
     .inquiry-button-rcdt {
         width: 100%;
         text-align: center;
